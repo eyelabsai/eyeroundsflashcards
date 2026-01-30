@@ -1,0 +1,466 @@
+{
+  "category": "TRAUMA",
+  "count": 45,
+  "entries": [
+    {
+      "name": "condition5",
+      "imgSrc": "thumbnails/adherent_leuloma.jpg",
+      "src": "pages/Adherent-Leukoma/index.htm",
+      "title": "Adherent leukoma and epithelial inclusion cyst after penetrating trauma",
+      "cat": [
+        "cornea",
+        "glaucoma",
+        "iris",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition7",
+      "imgSrc": "thumbnails/alkali-1-THUMB.jpg",
+      "src": "pages/Alkali-chemical-burn/index.htm",
+      "title": "Alkali chemical burn",
+      "cat": [
+        "cornea",
+        "ex_disease",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition14",
+      "imgSrc": "thumbnails/Subconj-Heme-thumb.jpg",
+      "src": "pages/Subconjunctival%20hemorrhage/Subconjunctival-Hemorrhage.htm",
+      "title": "Subconjunctival Hemorrhage",
+      "cat": [
+        "trauma",
+        "ex_disease",
+        "cornea"
+      ]
+    },
+    {
+      "name": "condition28",
+      "imgSrc": "thumbnails/subconjunctival-hemorrhage-thumb.jpg",
+      "src": "pages/Subconjunctival%20hemorrhage/Subconjunctival-Hemorrhage.htm",
+      "title": "Subconjunctival Hemorrhage",
+      "cat": [
+        "trauma",
+        "ex_disease",
+        "cornea"
+      ]
+    },
+    {
+      "name": "condition55",
+      "imgSrc": "pages/CHRRPE/1-CPHRRPE-LRG.jpg",
+      "src": "pages/CHRRPE/index.htm",
+      "title": "Combined Hamartoma of the Retina and RPE, Peri-Papillary ",
+      "cat": [
+        "retina",
+        "vitreous",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition79",
+      "imgSrc": "pages/corneal-abrasion/corneal-abrasion-fluor-LRG.jpg",
+      "src": "pages/corneal-abrasion/index.htm",
+      "title": "\tCorneal abrasion ",
+      "cat": [
+        "cornea",
+        "ex_disease",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition122",
+      "imgSrc": "pages/forceps-injury/Forceps-scar.jpg",
+      "src": "pages/forceps-injury/index.htm",
+      "title": "Descemet's membrane rupture secondary to forceps injury",
+      "cat": [
+        "cornea",
+        "peds",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition123",
+      "imgSrc": "pages/Foreign-Body-Subconj/Metallic-subconj-FB2.jpg",
+      "src": "pages/Foreign-Body-Subconj/index.htm",
+      "title": "Subconjunctival metallic foreign body",
+      "cat": [
+        "ex_disease",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition134",
+      "imgSrc": "pages/Hyphema/hyphema-1-LRG.jpg",
+      "src": "pages/Hyphema/index.htm",
+      "title": "Traumatic hyphema",
+      "cat": [
+        "glaucoma",
+        "iris",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition145",
+      "imgSrc": "pages/iris-spincter-tears/iris-spincter-tears.jpg",
+      "src": "pages/iris-spincter-tears/index.htm",
+      "title": "Traumatic iris sphincter tears",
+      "cat": [
+        "glaucoma",
+        "iris",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition177",
+      "imgSrc": "pages/metallic-FB-cornea/metallic-FB.jpg",
+      "src": "pages/metallic-FB-cornea/index.htm",
+      "title": "Metallic corneal foreign body",
+      "cat": [
+        "ex_disease",
+        "trauma",
+        "cornea"
+      ]
+    },
+    {
+      "name": "condition180",
+      "imgSrc": "http://webeye.ophth.uiowa.edu/eyeforum/cases-i/case211/6-Morcher.jpg",
+      "src": "pages/Morcher-IOL-for-aniridia/index.htm",
+      "title": "Morcher intraocular lens and penetrating keratoplasty (PKP) for traumatic aniridia",
+      "cat": [
+        "cornea",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition200",
+      "imgSrc": "pages/Orbital-Foreign-Body/Pencil-Coronal-1.jpg",
+      "src": "pages/Orbital-Foreign-Body/index.htm",
+      "title": "Orbital Foreign Body",
+      "cat": [
+        "plastics",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition212",
+      "imgSrc": "pages/Penetrating-ocular-trauma/cornea-1.jpg",
+      "src": "pages/Penetrating-ocular-trauma/index.htm",
+      "title": "Penetrating ocular trauma",
+      "cat": [
+        "trauma",
+        "cornea"
+      ]
+    },
+    {
+      "name": "condition256",
+      "imgSrc": "pages/siderosis-bulbi/1-siderosis.jpg",
+      "src": "pages/siderosis-bulbi/index.htm",
+      "title": "Siderosis bulbi",
+      "cat": [
+        "trauma",
+        "cataract",
+        "lens"
+      ]
+    },
+    {
+      "name": "condition273",
+      "imgSrc": "pages/traumatic-endothelial-pigment-deposit/traumatic-pigment-on-endothelium.jpg",
+      "src": "pages/traumatic-endothelial-pigment-deposit/index.htm",
+      "title": "Traumatic endothelial pigment deposition",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition321",
+      "imgSrc": "photos/BlowoutFx1.jpg",
+      "src": "pages/Blowout-fracture-upgaze-restriction.html",
+      "title": "Blowout fracture, upgaze restriction",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition331",
+      "imgSrc": "photos/SCH_2004early.jpg",
+      "src": "pages/Bullous-Sub-conjunctival-hemorrhage-early.html",
+      "title": "Bullous Sub-conjunctival hemorrhage, early",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition332",
+      "imgSrc": "photos/SCH.jpg",
+      "src": "pages/bullous-subconjunctival-hemorrhage-orbital-roof-fracture.html",
+      "title": "Bullous subconjunctival hemorrhage from orbital roof fracture",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition356",
+      "imgSrc": "photos/commotio.jpg",
+      "src": "pages/commotio-retinae.html",
+      "title": "Commotio retinae",
+      "cat": [
+        "retina",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition364",
+      "imgSrc": "thumbnails/laceration2.jpg",
+      "src": "pages/conjunctival-laceration-2-.html",
+      "title": "Conjunctival laceration",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition401",
+      "imgSrc": "thumbnails/FerrousFB_RustRing1.jpg",
+      "src": "pages/Ferrous-foreign-body-Rust-ring.html",
+      "title": "Ferrous foreign body: Rust ring",
+      "cat": [
+        "trauma",
+        "cornea"
+      ]
+    },
+    {
+      "name": "condition444",
+      "imgSrc": "thumbnails/IOFB-large-THUMB.jpg",
+      "src": "pages/intraocular-foreign-body-large.htm",
+      "title": "Large Intraocular Foreign Body",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition448",
+      "imgSrc": "thumbnails/iridodialysis2.jpg",
+      "src": "pages/iridodialysis-2.html",
+      "title": "Iridodialysis",
+      "cat": [
+        "trauma",
+        "iris"
+      ]
+    },
+    {
+      "name": "condition449",
+      "imgSrc": "thumbnails/Iridodialysis-traumatic-cataract-firecracker-THUMB.jpg",
+      "src": "pages/Iridodialysis-traumatic-cataract-firecracker.htm",
+      "title": "Iridodialysis and traumatic cataract after firecracker injury",
+      "cat": [
+        "cataract",
+        "iris",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition466",
+      "imgSrc": "thumbnails/lid-lac.jpg",
+      "src": "pages/lid-laceration-full-thickness.html",
+      "title": "Lid laceration - full thickness",
+      "cat": [
+        "plastics",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition467",
+      "imgSrc": "thumbnails/MVAlidMargin3_032005.jpg",
+      "src": "pages/Lid-Margin-laceration.html",
+      "title": "Lid Margin laceration",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition469",
+      "imgSrc": "http://eyerounds.org/atlas/photos/lipo/LipidKeratopathy1.jpg",
+      "src": "pages/Lipid-Keratopathy-post-trauma.html",
+      "title": "Lipid Keratopathy, post-trauma",
+      "cat": [
+        "cornea",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition473",
+      "imgSrc": "thumbnails/macular-hole-choroidal-rupture-commotio-THUMB.jpg",
+      "src": "pages/Macular-hole-commotio-retinae-choroidal-rupture.htm",
+      "title": "Macular hole, commotio retinae, and choroidal rupture after blunt eye injury",
+      "cat": [
+        "retina",
+        "vitreous",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition482",
+      "imgSrc": "thumbnails/medial-wall.jpg",
+      "src": "pages/edial-wall-and-orbital-floor-blowout-fractures-left.html",
+      "title": "Medial wall and orbital floor blowout fractures, left",
+      "cat": [
+        "plastics",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition500",
+      "imgSrc": "https://eyerounds.org/atlas/photos/Non-accidental-trauma/Fig1-THUMB.jpg",
+      "src": "pages/non-accidental-trauma.htm",
+      "title": "Non-accidental trauma-Bilateral Retinal Hemorrhages",
+      "cat": [
+        "peds",
+        "retina",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition518",
+      "imgSrc": "thumbnails/face_small.jpg",
+      "src": "pages/orbital-fractures-and-trauma.html",
+      "title": "Orbital fractures and trauma",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition526",
+      "imgSrc": "thumbnails/peaked-pupil.jpg",
+      "src": "pages/peaked-pupil-from-open-globe.html",
+      "title": "Peaked pupil from open globe",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition590",
+      "imgSrc": "thumbnails/ScaldBaby2_2004.jpg",
+      "src": "pages/Scalding-burn.html",
+      "title": "Scalding burn",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition598",
+      "imgSrc": "thumbnails/Sclopetaria-THUMB.jpg",
+      "src": "pages/Sclopetaria.htm",
+      "title": "Sclopetaria",
+      "cat": [
+        "retina",
+        "trauma",
+        "new"
+      ]
+    },
+    {
+      "name": "condition609",
+      "imgSrc": "thumbnails/Subconj-hematoma-THUMB.jpg",
+      "src": "pages/subconjunctival-hematoma.htm",
+      "title": "Subconjunctival Hematoma",
+      "cat": [
+        "cornea",
+        "ex_disease",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition610",
+      "imgSrc": "https://eyerounds.org/atlas/photos/subconjunctival-hemorrhage/subconjunctival-hemorrhage-THUMB.jpg",
+      "src": "pages/Subconjunctival-Hemorrhage.html",
+      "title": "Subconjunctival Hemorrhage",
+      "cat": [
+        "cornea",
+        "ex_disease",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition613",
+      "imgSrc": "thumbnails/glue_01222005.jpg",
+      "src": "pages/superglue-in-the-eye.html",
+      "title": "Superglue in the eye",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition625",
+      "imgSrc": "thumbnails/traumatic-aniridia-cataract-THUMB.jpg",
+      "src": "pages/traumatic-aniridia-cataract.htm",
+      "title": "Traumatic aniridia and cataract",
+      "cat": [
+        "cataract",
+        "lens",
+        "iris",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition626",
+      "imgSrc": "thumbnails/traumatic-cataract-THUMB.jpg",
+      "src": "pages/traumatic-cataract-iridodialysis.htm",
+      "title": "Traumatic cataract with iridodialysis and lens coloboma",
+      "cat": [
+        "lens",
+        "iris",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition627",
+      "imgSrc": "thumbnails/face-small.jpg",
+      "src": "pages/traumatic-endophthalmitis.html",
+      "title": "Traumatic endophthalmitis",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition628",
+      "imgSrc": "thumbnails/rosettecataractredglow13.jpg",
+      "src": "pages/traumatic-rosette-cataract.html",
+      "title": "Traumatic rosette cataract",
+      "cat": [
+        "cataract",
+        "lens",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition640",
+      "imgSrc": "thumbnails/white-cataract.jpg",
+      "src": "pages/white-cataract-from-trauma.html",
+      "title": "White cataract from trauma",
+      "cat": [
+        "cataract",
+        "lens",
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition647",
+      "imgSrc": "thumbnails/zmc.jpg",
+      "src": "pages/zygomatic-maxillary-complex-ZMC-tripod-fracture.html",
+      "title": "Zygomatic maxillary complex (ZMC) tripod fracture",
+      "cat": [
+        "trauma"
+      ]
+    },
+    {
+      "name": "condition662",
+      "imgSrc": "thumbnails/trauma2.jpg",
+      "src": "pages/choroidal-rupture.html",
+      "title": "Choroidal Rupture",
+      "cat": [
+        "trauma",
+        "retina"
+      ]
+    }
+  ]
+}

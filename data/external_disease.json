@@ -1,0 +1,49 @@
+{
+  "category": "EXTERNAL DISEASE",
+  "count": 4,
+  "entries": [
+    {
+      "name": "condition677",
+      "imgSrc": "photos/Honeycomb-P&P-Composite.png",
+      "src": "pages/honeycomb-corneal-edema-rho-kinase-inhibitor.htm",
+      "title": "Honeycomb corneal edema secondary to Rho-kinase inhibitor",
+      "cat": [
+        "cornea",
+        "external disease"
+      ]
+    },
+    {
+      "name": "condition678",
+      "imgSrc": "photos/Conjunctival_Capillary_Hemangioma/Capillary_Hemangioma_1.png",
+      "src": "pages/Conjunctival_Capillary_Hemangioma.htm",
+      "title": "Conjunctival Capillary Hemangioma",
+      "cat": [
+        "cornea",
+        "external disease"
+      ]
+    },
+    {
+      "name": "condition702",
+      "imgSrc": "https://eyerounds.org/atlas/pages/imgs/R_1qO1L6u8lUZgQ8p_Screenshot(1).png",
+      "src": "https://eyerounds.org/atlas/pages/nocardiafarcinica-keratitis.htm",
+      "title": "Nocardia farcinica keratitis in a contact lens wearer",
+      "cat": [
+        "cornea",
+        "new",
+        "lens",
+        "external disease"
+      ]
+    },
+    {
+      "name": "condition703",
+      "imgSrc": "https://eyerounds.org/atlas/pages/imgs/R_74oAn1DVOoOlBW7_nevus.JPG",
+      "src": "https://eyerounds.org/atlas/pages/Pigmented-Conjunctival-Nevus.html",
+      "title": "Pigmented Conjunctival Nevus",
+      "cat": [
+        "cornea",
+        "new",
+        "external disease"
+      ]
+    }
+  ]
+}

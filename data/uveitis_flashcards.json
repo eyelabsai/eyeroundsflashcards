@@ -1,0 +1,994 @@
+{
+  "category": "UVEITIS",
+  "count": 31,
+  "flashcards": [
+    {
+      "id": "uveitis_0",
+      "category": "UVEITIS",
+      "title": "Acute posterior multifocal placoid pigment epitheliopathy (APMPPE)",
+      "description": "APMPPE is one of the white dot syndromes that occurs in young healthy adults and similarly affects males and females. It is usually bilateral, although may be worse in one eye. APMPPE is generally a self-limited condition that requires no treatment and has a good prognosis. A 47-year-old female presents with a four day history of fluttering bright spots in the right eye. She denies a viral prodrome or headaches. Color fundus photo, right eye (OD): Multiple creamy yellow-white lesions throughout the macula",
+      "contributor": "Angela McAllister, MD",
+      "photographer": "Brice Critser, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/APMPPE/index.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/APMPPE/APMPPE-1-LRG.jpg",
+          "alt": "fundus image, yellow-white lesions throughout the macula",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/APMPPE/APMPPE-2-LRG.jpg",
+          "alt": "OCT",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/APMPPE/APMPPE-3-LRG.jpg",
+          "alt": "hypofluorescence of the lesions",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/APMPPE/APMPPE-4-LRG.jpg",
+          "alt": "fluorescein angiogram demonstrating late staining of lesions",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/imgs/R_3B8QpptNLQDPn3d_APMPPE2.png",
+          "alt": "",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/imgs/R_3B8QpptNLQDPn3d_APMPPE1.png",
+          "alt": "",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_1",
+      "category": "UVEITIS",
+      "title": "Leukemic pseudohypopyon",
+      "description": "Pseudohypopyon is a relatively rare manifestation of leukemia. It occurs most often in patients with acute lymphoblastic leukemia and may be seen during a blast crisis or as a sign of relapse [1]. Rapid development of an atypical, blood-stained hypopyon that fails to respond to corticosteroid therapy is classic for leukemic pseudohypopyon [2]. Pseudohypopyon is distinguished from infectious or inflammatory hypopyon by the absence of an associated fibrin reaction. This pseudohypopyon was the first sign of this 56-year-old patient's acute lymphoblastic leukemia relapse. Timely anterior chamber aspiration with cytology and systemic malignancy work-up are paramount to ensuring appropriate diagnosis and treatment",
+      "contributor": "Lauren E. Hock, MD; James C. Folk, MD",
+      "photographer": "Sarah L. Skiles, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/Leukemic%20pseudohypopyon/leukemic-pseudohypopyon.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/Leukemic%20pseudohypopyon/leukemichypopyon_slitlamp-LRG.jpg",
+          "alt": "alt text",
+          "figure_label": "Figure 1"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/Leukemic%20pseudohypopyon/leukemic-hypopyon_iris-LRG.jpg",
+          "alt": "alt text",
+          "figure_label": "Figure 2"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/Leukemic%20pseudohypopyon/thumb.jpg",
+          "alt": "Leukemic Retinopathy",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/Leukemic%20pseudohypopyon/thumb.jpg",
+          "alt": "Leukemic Retinopathy",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_2",
+      "category": "UVEITIS",
+      "title": "Central posterior synechiae (CPS) in the setting of tubulointerstitial nephritis and uveitis syndrome (TINU) ",
+      "description": "Central posterior synechiae (CPS) are adhesions between the iris at the pupillary margin and anterior lens capsule that can occur in settings of intraocular inflammation. This patient has panuveitis related to tubulointerstitial nephritis and uveitis syndrome (TINU). As seen here, the CPS are very apparent after pharmacologic dilation as they mechanically restrict the pupil from expanding.",
+      "contributor": "Jesse Vislisel, MD",
+      "photographer": "Toni Venckus, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/Central-posterior-synechiae/index.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/Central-posterior-synechiae/CPS-LRG.jpg",
+          "alt": "Central posterior synechiae of the eye",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/Central-posterior-synechiae/CPS-2-LRG.jpg",
+          "alt": "Central posterior synechiae of the eye Dark background",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_3",
+      "category": "UVEITIS",
+      "title": "Keratic precipitates (KP) in juvenile idiopathic arthritis (JIA)",
+      "description": "Keratic precipitates (KP) are inflammatory cellular deposits on the corneal endothelium, often seen in the setting of intraocular inflammation. The KP in this photograph were seen in a patient with reactivation of juvenile idiopathic arthritis-associated anterior uveitis.",
+      "contributor": "Jesse Vislisel, MD",
+      "photographer": "Stefani Karakas, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/KP-Keratic-precipitates-in-JIA/index.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/KP-Keratic-precipitates-in-JIA/keratitis-RA-ppt-LRG.jpg",
+          "alt": "Keratic precipitates ",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/KP-Keratic-precipitates-in-JIA/keratitis-RA-ppt-slit-LRG.jpg",
+          "alt": "slit lamp - Keratic precipitates ",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_4",
+      "category": "UVEITIS",
+      "title": "Mutton Fat Keratic Precipitates (KP)",
+      "description": "This is a 51-year-old female that presented with severe ocular pain and photophobia. She presented acutely and had evidence of mutton-fat keratic precipitates (KP) on exam. She was later diagnosed with sarcoidosis. KP are collections of inflammatory cells on the corneal endothelium. When these coalesce and become large with a yellowish color, they are described as mutton-fat KP. These are typically associated with granulomatous inflammation",
+      "contributor": "Lucas Lenci, MD",
+      "photographer": "Carol, Chan, MD",
+      "source_url": "https://eyerounds.org/atlas/pages/KP-Mutton-Fat-keratic-PPT/index.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/KP-Mutton-Fat-keratic-PPT/mutton-fat-KP-1-LRG.JPG",
+          "alt": "mutton fat KP",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/KP-Mutton-Fat-keratic-PPT/mutton-fat-KP-2-LRG.JPG",
+          "alt": "mutton fat KP",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/KP-Mutton-Fat-keratic-PPT/mutton-fat-KP-3-LRG.JPG",
+          "alt": "mutton fat KP slit lamp",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/KP-Mutton-Fat-keratic-PPT/KP_Scleral_Scatter.jpg",
+          "alt": "Scleral Scatter",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/KP-Mutton-Fat-keratic-PPT/KP_Scleral_Scatter_2.jpg",
+          "alt": "Scleral Scatter",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/KP-Mutton-Fat-keratic-PPT/KP_Diffuse_Illumination.jpg",
+          "alt": "mutton fat KP slit lamp",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/KP-Mutton-Fat-keratic-PPT/KP_Slit_Beam.jpg",
+          "alt": "Slit Beam",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_5",
+      "category": "UVEITIS",
+      "title": "Lens material in the anterior chamber causing chronic uveitis",
+      "description": "Lens material can cause intraocular inflammation when not isolated by the lens capsule. This patient was referred with chronic, refractory uveitis of unknown etiology, but on exam he was found to have a large piece of displaced lens material in the anterior chamber. In the photographs, a large piece of cataractous lens nuclear material is present inferiorly. The anterior chamber uveitis is not easily visible, but the corneal edema and Descemet's folds can be visualized using the slit beam.",
+      "contributor": "Jesse Vislisel, MD; Anna Kitzmann, MD",
+      "photographer": "Carol Chan, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/lens-material-in-AC/index.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/lens-material-in-AC/Displaced-lens-material-LRG.jpg",
+          "alt": "Displaced Lens Material",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/lens-material-in-AC/Displaced-lens-material-slit-LRG.jpg",
+          "alt": "Displaced Lens Material - Slit Lamp",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/lens-material-in-AC/Displaced-lens-material-slit-2-LRG.jpg",
+          "alt": "Displaced Lens Material - Slit Lamp",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_6",
+      "category": "UVEITIS",
+      "title": "Multiple evanescent white dot syndrome (MEWDS)",
+      "description": "Figure 1 Multiple evanescent white dot syndrome (MEWDS) results from idiopathic inflammation of the retina. It is most common in healthy, young, white, myopic females and typically has an acute and unilateral presentation. As seen in the photograph, the condition causes multiple, discrete, gray-white spots in the outer retina or retinal pigmented epithelium (RPE). There are pathognomonic granular changes within the fovea. Mild intraocular inflammation may be present.",
+      "contributor": "Jesse Vislisel, MD; Karen Gehrs, MD",
+      "photographer": "Carol Chan, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/MEWDS/index.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/MEWDS/MEWDS-fundus-LRG.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) fundus",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/MEWDS/MEWDS-FA-early-LRG.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) Fundus fluorescein angiography (FFA)",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/MEWDS/MEWDS-FA-late-LRG.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) Fundus fluorescein angiography (FFA) late",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/MEWDS/MEWDSMONTAGE.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) fundus",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/MEWDS/MEWDS1.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) fundus normal",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/MEWDS/MEWDS2.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) fundus abnormal with white spots",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/MEWDS/MEWDSFA.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) fundus FA",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/MEWDS/MEWDS-fundus-3-1a-LRG.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) fundus ",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/MEWDS/mewds-fundus-3-1b-LRG.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) fundus ",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/MEWDS/MEWDS-3-2-LRG.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) fundus ",
+          "figure_label": ""
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas/pages/MEWDS/MEWDS-3-3.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) fundus FA",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/MEWDS/MEWDS-3-goldmann-LRG.jpg",
+          "alt": "Multiple evanescent white dot syndrome (MEWDS) Goldmann visual field",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_7",
+      "category": "UVEITIS",
+      "title": "Punctate inner choroiditis (PIC)",
+      "description": "Punctate inner choroiditis/choroidopathy (PIC) is an inflammatory disorder most common in otherwise healthy, young, white, myopic women. The condition results in small (100-200 \u00b5m) yellow-white chorioretinal lesions in the posterior pole, rarely extending to the midperiphery. The lesions progress to deep, punched-out chorioretinal scars, often with surrounding hyperpigmentation. In contrast to some similar conditions, there is no associated vitritis. Fluorescein angiography shows early hyperfluorescence and late staining of the lesions, as seen in these photographs. The disease course is self-limited and there is generally a good visual prognosis, though vision can be limited in the presence of choroidal neovascularization",
+      "contributor": "Jesse Vislisel, MD",
+      "photographer": "Stefani Karakas, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/PIC/index.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/PIC/PIC-LRG.jpg",
+          "alt": "Punctate inner choroiditis/choroidopathy fundus",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/PIC/FA-early-LRG.jpg",
+          "alt": "Punctate inner choroiditis/choroidopathy early fluorescien aniography",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/PIC/FA-late-LRG.jpg",
+          "alt": "Punctate inner choroiditis/choroidopathy early fluorescien aniography",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_8",
+      "category": "UVEITIS",
+      "title": "Scleromalacia in Rheumatoid Arthritis",
+      "description": "This patient is an 88-year-old female with a history of rheumatoid arthritis who presented with bilateral eye pain. An external photo of the right eye shows dilated episcleral vessels traversing 360 degrees around the limbus. There is significant scleromalacia around the senile calcific plaque temporally with a deep furrow extending roughly 90% through the sclera. Underlying uvea can be seen on the close-up photo of the right eye. Less advanced scleromalacia is seen nasally. The left eye also exhibits dilated episcleral vessels surrounding the limbus as well as scleromalacia nasally and temporally",
+      "contributor": "William Flanary, MD",
+      "photographer": "Venckus, Antoinette",
+      "source_url": "https://eyerounds.org/atlas/pages/Scleromalacia-in-RA/index.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/Scleromalacia-in-RA/external-OD-LRG.jpg",
+          "alt": "Scleromalacia in Rheumatoid Arthritis OD",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/Scleromalacia-in-RA/external-OS-LRG.jpg",
+          "alt": "Scleromalacia in Rheumatoid Arthritis OS",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/Scleromalacia-in-RA/temporal-thinning-OD-LRG.jpg",
+          "alt": "Scleromalacia in Rheumatoid Arthritis OD high magnification",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/Scleromalacia-in-RA/temporal-thinning-OS-lrg.jpg",
+          "alt": "Scleromalacia in Rheumatoid Arthritis OS high magnification",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_9",
+      "category": "UVEITIS",
+      "title": "Serpiginous choroidopathy",
+      "description": "Serpiginous choroidopathy is a chronic, recurrent, typically bilateral inflammatory disease of the chorioretinal pigmented epithelium. It is characterized by atrophic scars with active, yellow-gray borders, often extending in a serpent-like pattern from the optic disc. These photographs show the progression of the disease over a 10-year time period (the most recent photographs are located on the bottom). To read more about this serpiginous choroidopathy and this patient, see the full case report Figure 1A",
+      "contributor": "Jesse Vislisel, MD",
+      "photographer": "Brice Critser, CRA (Figure A, B); Antoinette Venckus, CRA (Figure C, D)",
+      "source_url": "https://eyerounds.org/atlas/pages/Serpiginous-choroidopathy/index.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/Serpiginous-choroidopathy/serpiginous-OD-LRG.jpg",
+          "alt": "Serpiginous choroidopathy fundus OD",
+          "figure_label": "Figure 1A"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/Serpiginous-choroidopathy/serpiginous-OS-LRG.jpg",
+          "alt": "Serpiginous choroidopathy fundus OD",
+          "figure_label": "Figure 1B"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/Serpiginous-choroidopathy/serpiginous-OD-plus-10-yrs-LRG.jpg",
+          "alt": "Serpiginous choroidopathy fundus OD, 10 year old",
+          "figure_label": "Figure 1C"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/Serpiginous-choroidopathy/serpiginous-OS-plus-10-yr-LRG.jpg",
+          "alt": "Serpiginous choroidopathy fundus OS, 10 year old",
+          "figure_label": "Figure 1D"
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/cases-i/cases/Serpiginous-ResizedFFA.jpg",
+          "alt": "related case",
+          "figure_label": ""
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/cases-i/cases/Serpiginous-ResizedFFA.jpg",
+          "alt": "related case",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_10",
+      "category": "UVEITIS",
+      "title": "Ocular toxocariasis",
+      "description": "Ocular toxocariasis is caused by infection with the second-stage larvae of the roundworms Toxocara canis or Toxocara cati. The infection can have three primary presentations: 1) chronic endophthalmitis, 2) localized granuloma, and 3) peripheral granuloma. These photographs show a classic localized granuloma located over the optic nerve. Also shown are the appearance of the granuloma on B-scan echography and optical coherence tomography (OCT). Classic localized granuloma located over the optic nerve",
+      "contributor": "Jesse Vislisel, MD",
+      "photographer": "Stefani Karakas, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/toxocara/index.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/toxocara/toxocara-LRG.jpg",
+          "alt": "localized granuloma located over the optic nerve",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/toxocara/toxocara-B-scan-LRG.jpg",
+          "alt": "localized granuloma located over the optic nerve",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/toxocara/toxocara-OCT-LRG.jpg",
+          "alt": "localized granuloma located over the optic nerve",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_11",
+      "category": "UVEITIS",
+      "title": "Vascular sheathing in idiopathic retinal vasculitis",
+      "description": "Vasculitis. At the time of these photographs, the patient had active vasculitis in the right eye while the left was inactive. He has prominent vascular sheathing and scattered retinal pigmented epithelium (RPE) changes. The fluorescein angiogram shows scattered leakage in the right eye and window defects in the area of RPE atrophy in the left eye. Right Eye",
+      "contributor": "Jesse Vislisel, MD",
+      "photographer": "Toni Venckus, CRAt",
+      "source_url": "https://eyerounds.org/atlas/pages/vasculitis/index.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/vasculitis/vasculitis-OD-LRG.JPG",
+          "alt": "vasculitis OD",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/vasculitis/vasculitis-OS-LRG.JPG",
+          "alt": "vasculitis OS",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/vasculitis/vasculitis-OD-FA-LRG.JPG",
+          "alt": " vasculitis OD fluorescein angiogram",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/vasculitis/vasculitis-OS-FA-LRG.JPG",
+          "alt": " vasculitis OS fluorescein angiogram",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/vasculitis/vasculitis-OD-montage-LRG.JPG",
+          "alt": " vasculitis OD montage",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/vasculitis/vasculitis-OS-montage-LRG.JPG",
+          "alt": " vasculitis OS montage",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_12",
+      "category": "UVEITIS",
+      "title": "Anterior vitreous inflammation in autoimmune retinopathy",
+      "description": "Posted: October 24, 2013 Anterior vitreous inflammatory cells are visible in the slit lamp beam between the crystalline lens and the underlying vitreous veils. This patient has a diagnosis of autoimmune retinopathy with positive testing for antiretinal autoantibodies.",
+      "contributor": "Jesse Vislisel, MD",
+      "photographer": "Brice Critser, CRA, OCT-C",
+      "source_url": "https://eyerounds.org/atlas/pages/anterior-vitreous-inflammation.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos/Anterior-vitreous-Inflammation.jpg",
+          "alt": "Anterior Vitreous Inflammation",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_13",
+      "category": "UVEITIS",
+      "title": "Birdshot chorioretinopathy",
+      "description": "Posted: April 18, 2013 47-year-old female referred for decreased vision left eye(OS)>right eye(OD) and uveitis, both eyes (OU) diagnosed 5 days prior by an outside provider. Anterior segment exam was notable for 2+ cell and flare OU and 2+ vitreous cells OU. Fundus exam demonstrated multiple deep round yellow-white lesions. Fluorescein angiography was notable for diffuse disc leakage OU. A diagnosis of birdshot choroiditis was made and the patient was treated with oral prednisone with resolution of symptoms. Blood testing was positive for HLA A29",
+      "contributor": "Jeffrey D. Welder, MD",
+      "photographer": "Stefani Karakas, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/Birdshot-chorioretinopathy.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos/birdshotChorioretinopathy-colorOD.jpg",
+          "alt": "Birdshot chorioretinopathy-right eye",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/birdshotChorioretinopathy-colorOS.jpg",
+          "alt": "Birdshot chorioretinopathy-left eye",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/birdshotChorioretinopathy-FA-OD.jpg",
+          "alt": "Birdshot chorioretinopathy-right eye",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/birdshotChorioretinopathy-FA-OS.jpg",
+          "alt": "Birdshot chorioretinopathy-right eye",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/imgs/R_7CkruHXiWbETghX_Birdshot1.png",
+          "alt": "",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/imgs/R_7CkruHXiWbETghX_Birdshot2.png",
+          "alt": "",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_14",
+      "category": "UVEITIS",
+      "title": "Endophthalmitis",
+      "description": "",
+      "contributor": "Andrew Doan, MD, PhD",
+      "photographer": "",
+      "source_url": "https://eyerounds.org/atlas/pages/endophthalmitis.html",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/post-trab.jpg",
+          "alt": "Dilated funduscopic examination showed severe, diffuse optic atrophy OD and bow-tie (band) optic atrophy OS",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_15",
+      "category": "UVEITIS",
+      "title": "Leukemic pseudohypopyon",
+      "description": "Pseudohypopyon is a relatively rare manifestation of leukemia. It occurs most often in patients with acute lymphoblastic leukemia and may be seen during a blast crisis or as a sign of relapse [1]. Rapid development of an atypical, blood-stained hypopyon that fails to respond to corticosteroid therapy is classic for leukemic pseudohypopyon [2]. Pseudohypopyon is distinguished from infectious or inflammatory hypopyon by the absence of an associated fibrin reaction. This pseudohypopyon was the first sign of this 56-year-old patient's acute lymphoblastic leukemia relapse. Timely anterior chamber aspiration with cytology and systemic malignancy work-up are paramount to ensuring appropriate diagnosis and treatment",
+      "contributor": "Lauren E. Hock, MD; James C. Folk, MD",
+      "photographer": "Sarah L. Skiles, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/leukemic-pseudohypopyon.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos/leukemic-hypopyon/leukemichypopyon_slitlamp-LRG.jpg",
+          "alt": " Slit lamp photograph of the left eye shows mild injection, clear cornea, and presence of a 3.5 mm blood-tinged pseudohypopyon in the anterior chamber",
+          "figure_label": "Figure 1"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/leukemic-hypopyon/leukemic-hypopyon_iris-LRG.jpg",
+          "alt": " presence of gelatinous fibrovascular lesions along the pupillary margin and peripheral iris",
+          "figure_label": "Figure 2"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/leukemic/Leukemic-Retinopathy-1.jpg",
+          "alt": "Related atlas entry: Leukemic retinopathy",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/leukemic/Leukemic-Retinopathy-1.jpg",
+          "alt": "Related atlas entry: Leukemic retinopathy",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_16",
+      "category": "UVEITIS",
+      "title": "Madarosis",
+      "description": "",
+      "contributor": "James G. Howard, MD",
+      "photographer": "",
+      "source_url": "https://eyerounds.org/atlas/pages/Madarosis.html",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/madarosis-1.jpg",
+          "alt": "Madarosis (focal lash loss) associated with Behcet's disease.",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/madarosis-2.jpg",
+          "alt": "Madarosis (focal lash loss) ",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/madarosis-3.jpg",
+          "alt": "Madarosis (focal lash loss) with focused light",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_17",
+      "category": "UVEITIS",
+      "title": "Nodular anterior scleritis",
+      "description": "Scleritis is a severe, immune-mediated ocular inflammatory condition that is frequently associated with systemic immunologic disease. The condition is classified by location (anterior or posterior) and the appearance of scleral inflammation (diffuse, nodular, or necrotizing). This photograph displays dilated, inflamed scleral vasculature and a prominent scleral nodule inferior to the limbus.",
+      "contributor": "Jesse Vislisel, MD",
+      "photographer": "Brice Critser, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/nodular-anterior-scleritis.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/LARGE/nodular-scleritis-L.jpg",
+          "alt": "inflamed scleral vasculature and a prominent scleral nodule inferior to the limbus",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/Nodular-anterior-scleritis-photo-LRG.jpg",
+          "alt": "Nodular anterior scleritis",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_18",
+      "category": "UVEITIS",
+      "title": "Ocular Toxoplasmosis",
+      "description": "A 20-year-old male was referred by an optometrist because of a pigmented scar in the right eye. The patient complained of black spots in his vision for the past week. He had no pain or irritation. He was born in Peru, but came to the United States at the age of 14 and lived in Tennessee on a farm and had been exposed to many cats in the past. He had no other complaints or medical problems. Vision with correction: OD 20/25-1; OS 20/20 Intraocular pressure: normal OU Slit lamp examination OU: unremarkable; no AC cells; no posterior synechiae; clear lens Fig 1: Dilated fundus examination of the right eye showed a well-circumscribed small old peripheral pigmented scar just beyond the inferotemporal arcades, with a patchy area of active chorioretinitis inferiorly",
+      "contributor": "Eric Chin, MD and Christi Carter, MD",
+      "photographer": "Toni Venckus, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/ocular-toxoplasmosis.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/LARGE/Ocular-toxoplasmosis-1-LRG.jpg",
+          "alt": "Dilated fundus examination of the right eye showed a well-circumscribed small old peripheral pigmented scar just beyond the inferotemporal arcades",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/LARGE/Ocular-toxoplasmosis-2-LRG.jpg",
+          "alt": "magnification inferotemporally showed an old pigmented scar with an adjacent area of active chorioretinitis. The yellow arrows point to faint Kyrieleis' vascular plaques.",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/LARGE/Ocular-toxoplasmosis-3-LRG.jpg",
+          "alt": "magnification inferotemporally showed an old pigmented scar with an adjacent area of active chorioretinitis",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/LARGE/Ocular-toxoplasmosis-4-LRG.jpg",
+          "alt": "Dilated fundus examination of the left eye was unremarkable without any pigmented scars or active areas of chorioretinitis.",
+          "figure_label": ""
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/cases-i/case74/Acquired-Toxoplasmosis-Retina_2B.jpg",
+          "alt": "related case",
+          "figure_label": ""
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas/photos/toxoplasmosis/toxoplasma-1.jpg",
+          "alt": "related case",
+          "figure_label": ""
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/cases-i/case74/Acquired-Toxoplasmosis-Retina_2B.jpg",
+          "alt": "related case",
+          "figure_label": ""
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas/photos/toxoplasmosis/toxoplasma-1.jpg",
+          "alt": "related case",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_19",
+      "category": "UVEITIS",
+      "title": "Ocular toxoplasmosis (2)",
+      "description": "Toxoplasmosis is the most common cause of posterior uveitis. Active lesions have a classic \"headlight in fog\" appearance with a focal, white, fluffy lesion adjacent to an old scar visible through the associated granulomatous uveitis and vitritis as seen in Figure 1. Inactive lesions appear as a chorioretinal scar in the posterior pole, often within the macula as seen in Figure 2. Active lesions have a classic \"headlight in fog\" appearance with a focal, white, fluffy lesion adjacent to an old scar visible through the associated granulomatous uveitis and vitritis as seen in Figure 1",
+      "contributor": "Jesse Vislisel, MD",
+      "photographer": "Brice Critser, CRA (fig 1), Stefani Karakas, CRA(fig 2)",
+      "source_url": "https://eyerounds.org/atlas/pages/ocular-toxoplasmosis-2.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos/toxoplasmosis/toxoplasma-1-LRG.jpg",
+          "alt": "fundus photo showing active lesions",
+          "figure_label": "Figure 1"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/toxoplasmosis/toxoplasma-scars-2-LRG.jpg",
+          "alt": "fundus photo showing inactive lesions",
+          "figure_label": "Figure 2"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/toxoplasmosis/ocular-toxoplasmosis-new-LRG.jpg",
+          "alt": "fundus photo showing inactive lesions",
+          "figure_label": ""
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas/photos/toxoplasmosis/ocular-toxoplasmosis-1.jpg",
+          "alt": "related atals entry",
+          "figure_label": ""
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/atlas/photos/toxoplasmosis/ocular-toxoplasmosis-1.jpg",
+          "alt": "related atals entry",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_20",
+      "category": "UVEITIS",
+      "title": "Pan-endophthalmitis",
+      "description": "",
+      "contributor": "Andrew Doan, MD, PhD",
+      "photographer": "",
+      "source_url": "https://eyerounds.org/atlas/pages/pan-endophthalmitis.html",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/OD_06012004.jpg",
+          "alt": "external photo of patient with Endophthalmitis",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/CT2_06012004.jpg",
+          "alt": "CT Scan showing orbital cellulitis",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/globe2_06012004.jpg",
+          "alt": "Enucleated globe",
+          "figure_label": ""
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/cases-i/cases/globe2_06012004.jpg",
+          "alt": "related case",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_21",
+      "category": "UVEITIS",
+      "title": "Pars planitis",
+      "description": "",
+      "contributor": "Andrew Doan, MD, PhD",
+      "photographer": "",
+      "source_url": "https://eyerounds.org/atlas/pages/pars-planitis.html",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/snow-banking.jpg",
+          "alt": "snow banking of vitreous cells",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/vit-cells.jpg",
+          "alt": "vitreous cells",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/vit-cells-2.jpg",
+          "alt": "more vitreous cells",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_22",
+      "category": "UVEITIS",
+      "title": "Sarcoid Uveitis",
+      "description": "",
+      "contributor": "Jesse Vislisel, MD",
+      "photographer": "",
+      "source_url": "https://eyerounds.org/atlas/pages/sarcoid-uveitis.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos/sarcoid-uveitis.jpg",
+          "alt": "Dilated funduscopic examination showed severe, diffuse optic atrophy OD and bow-tie (band) optic atrophy OS",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_23",
+      "category": "UVEITIS",
+      "title": "Sarcoidosis",
+      "description": "This 34-year-old African American male presented with a few months of blurry vision and photophobia. On exam, he was noted to have bilateral granulomatous anterior uveitis with large mutton-fat keratic precipitates, iris granulomas, enlarged lacrimal glands, and bilateral cervical and post-auricular lymphadenopathy. Laboratory testing revealed an angiotensin converting enzyme (ACE) level of 294 U/L (normal 8-52). He was referred to pulmonary medicine and diagnosed with sarcoidosis. Photos 1 : Mutton-fat keratic precipitates and iris granulomas in sarcoidosis.",
+      "contributor": "Justin Risma, MD",
+      "photographer": "Carol Chan, CRA and Deb Kaefring",
+      "source_url": "https://eyerounds.org/atlas/pages/Sarcoidosis.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos/Sarcoidosis/Sarcoidosis-1a-LRG.jpg",
+          "alt": "Mutton-fat keratic precipitates and iris granulomas in sarcoidosis side view",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/Sarcoidosis/Sarcoidosis-1b-LRG.jpg",
+          "alt": "Mutton-fat keratic precipitates and iris granulomas in sarcoidosis straight view",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/Sarcoidosis/Sarcoidosis-2-LRG.jpg",
+          "alt": " Lacrimal gland enlargement in sarcoisosis",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/Sarcoidosis/Sarcoidosis3-4-LRG.jpg",
+          "alt": "Cervical and post-auricular lymphadenopathy in sarcoidosis - Right Side",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_24",
+      "category": "UVEITIS",
+      "title": "Scleritis, scleral thinning",
+      "description": "This patient has had multiple bouts of scleritis in both eyes. Significant thinning of the sclera has resulted and is evident in these images.",
+      "contributor": "Jordan Graff, MD",
+      "photographer": "",
+      "source_url": "https://eyerounds.org/atlas/pages/Scleritis-scleral-thinning.html",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/Post-Scleritis_02152005-1.jpg",
+          "alt": "both eyes showing thinning of the sclera",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/Post-Scleritis_02152005-2.jpg",
+          "alt": "close-up of lower eye showing thinning of the sclera",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_25",
+      "category": "UVEITIS",
+      "title": "The Sympathizing Eye: Panuveitis Secondary to Sympathetic Ophthalmia",
+      "description": "This is a 46-year-old monocular man who presented with floaters, peripheral vision loss, and decreased central acuity in his left eye. Nine months prior to presentation, the right eye had suffered a penetrating globe injury with retinal detachment and was enucleated within four weeks of the injury. His slit lamp exam demonstrated anterior and posterior chamber cell (Figure 1). Dilated fundus exam revealed vitreous strands, grade III disc edema, and multiple, discrete, peripheral hypopigmented lesions consistent with Dalen-Fuchs nodules (i",
+      "contributor": "Brittni A. Scruggs, MD, PhD and Ian C. Han, MD",
+      "photographer": "",
+      "source_url": "https://eyerounds.org/atlas/pages/sympathizing-eye.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos/sympathizing-eye/slitlamp-os-LRG.jpg",
+          "alt": " Slitlamp photography",
+          "figure_label": "Figure 1"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/sympathizing-eye/pseudocolor-fundus-os-LRG.jpg",
+          "alt": " Optos ultra-widefield pseudocolor fundus photography",
+          "figure_label": "Figure 2"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/sympathizing-eye/fundus-os-LRG.jpg",
+          "alt": " Optos ultra-widefield pseudocolor fundus photography",
+          "figure_label": "Figure 3"
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/sympathizing-eye/OCT-macula-LRG.jpg",
+          "alt": " Optos ultra-widefield pseudocolor fundus photography",
+          "figure_label": "Figure 4"
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_26",
+      "category": "UVEITIS",
+      "title": "TB Uveitis",
+      "description": "",
+      "contributor": "Andrew Doan, MD, PhD",
+      "photographer": "",
+      "source_url": "https://eyerounds.org/atlas/pages/TB-Uveitis.html",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/redeye2_03042004.jpg",
+          "alt": "eye showing HIV and mutton fat KP",
+          "figure_label": ""
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/cases-i/cases/redeye_03042004.jpg",
+          "alt": "related case link",
+          "figure_label": ""
+        },
+        {
+          "url": "https://webeye.ophth.uiowa.edu/eyeforum/cases-i/cases/redeye_03042004.jpg",
+          "alt": "related case link",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_27",
+      "category": "UVEITIS",
+      "title": "Tuberculosis (TB) uveitis - iritis",
+      "description": "",
+      "contributor": "Andrew Doan, MD, PhD",
+      "photographer": "",
+      "source_url": "https://eyerounds.org/atlas/pages/tuberculosis-TB-uveitis-iritis.html",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/redeye1.jpg",
+          "alt": "full face showing Iritis OD",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos-earlier/PPD.jpg",
+          "alt": "skin test",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_28",
+      "category": "UVEITIS",
+      "title": "Uveal Effusion Syndrome",
+      "description": "Uveal effusion syndrome is a rare entity involving the idiopathic collection of serous fluid in the suprachoroidal space. The condition is more common in middle-aged men. Serous retinal detachment and suprachoroidal collection of serous fluid may be seen and confirmed with transillumination of the globe or ultrasonography. Other examination findings may include leopard-spotted changes in the retinal pigment epithelium (indicating chronicity), normal intraocular pressure (as opposed to hypotonous choroidal effusion), vitreous cell, dilation of episcleral blood vessels, and blood in Schlemm's canal. Due to the idiopathic nature, the diagnosis is made after excluding other causes of effusion such as inflammation or infection, neoplasm, or trauma. Effective treatment often involves sclerotomy, quadrantic sclerectomy, and/or decompression of vortex veins",
+      "contributor": "Austin Fox, MD",
+      "photographer": "Susan J. Wright",
+      "source_url": "https://eyerounds.org/atlas/pages/uveal-effusion.htm",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/photos/Uveal-effusion/Fig1-LRG.jpg",
+          "alt": "green, red and yellow view of uveal effusion",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/Uveal-effusion/Fig2-LRG.jpg",
+          "alt": "b-scan uveal effusion",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_29",
+      "category": "UVEITIS",
+      "title": "Acute Retinal Necrosis",
+      "description": "Posted: 06/03/2024 A 65-year-old man presented with new onset cobwebs, floaters, and decreased vision in the right eye. He had underlying diabetes mellitus with known non-proliferative diabetic retinopathy but was otherwise immunocompetent. On dilated fundus examination there was moderate vitritis with sheet like patches of homogeneous peripheral whitening anterior to the equator, consistent with acute retinal necrosis (ARN). There is no visible vitreous traction or retinal tear or detachment. There is also vascular sheathing predominantly of the arterioles, which favors an underlying etiology of varicella zoster virus as the cause of ARN.",
+      "contributor": "Mahsaw Mansoor, MD",
+      "photographer": "Michael Edrington",
+      "source_url": "https://eyerounds.org/atlas/pages/Acute_Retinal_Necrosis.html",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/imgs/R_3e5dpU77mkhr8x6_ARN.png",
+          "alt": "",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    },
+    {
+      "id": "uveitis_30",
+      "category": "UVEITIS",
+      "title": "Bilateral Retinoschisis-Associated Retinal Detachments in Pars Planitis",
+      "description": "Posted: 09/18/2024 A 15-year-old female with pars planitis, controlled for 2 years on adalimumab and methotrexate, presented for a new-onset superonasal visual field defect in the left eye. Fundus photography (A, B) showed inferior retinoschisis (yellow arrows) with associated retinal detachments (white arrows) in both eyes. B-scan of the right eye showed a double-layer sign (C). OCT in the left eye confirmed subretinal fluid into the macula. Due to a demarcation line, the right eye was cautiously observed, and the left eye underwent emergent retinal detachment repair.",
+      "contributor": "Emma M. Hartness, BS; Scott A. Larson, MD; Timothy M. Boyce, MD",
+      "photographer": "Alexandra Copple, Ashley Ollinger, Sarah Skiles, CRA",
+      "source_url": "https://eyerounds.org/atlas/pages/Bilateral-Retinoschisis-Associated-Retinal-Detachments-Pars-Planitis.htm#gsc.tab=0",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/imgs/Fig1_Fundus_pars_plantis.jpg",
+          "alt": "Right and left optic discs appear structurally congested and tilted with situs inversus of the retinal vessels.",
+          "figure_label": ""
+        },
+        {
+          "url": "https://www.eyerounds.org/atlas/photos/acquired-peripheral-retinoschisis-1.jpg",
+          "alt": "B-scan ultrasound is a useful adjunct to confirm splitting of the retinal layers in the periphery.",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/cases-i/case246/Fig1-LRG.jpg",
+          "alt": "Fundus photo showing inferotemporal retinoschisis",
+          "figure_label": ""
+        }
+      ],
+      "keywords": "",
+      "year": ""
+    }
+  ]
+}

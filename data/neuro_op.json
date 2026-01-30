@@ -1,0 +1,58 @@
+{
+  "category": "NEURO-OP",
+  "count": 5,
+  "entries": [
+    {
+      "name": "condition385",
+      "imgSrc": "http://eyerounds.org/atlas/photos/Dominant-Optic-Atrophy/DOA-OS-THUMB.jpg",
+      "src": "pages/Dominant-optic-atrophy.htm",
+      "title": "Dominant optic atrophy",
+      "cat": [
+        "inherited",
+        "neuro-op"
+      ]
+    },
+    {
+      "name": "condition408",
+      "imgSrc": "thumbnails/GCAfig1a.jpg",
+      "src": "pages/Giant-Cell-Arteritis-Temporal-Arteritis-GCA.html",
+      "title": "Giant Cell Arteritis (Temporal Arteritis) - GCA",
+      "cat": [
+        "neuro-op",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition445",
+      "imgSrc": "http://webeye.ophth.uiowa.edu/eyeforum/atlas/photos/intrapapillary-hemorrhage/fundus-OD-intrapapillary-hemorrhage.jpg",
+      "src": "pages/intrapapillary-hemorrhage.htm",
+      "title": "Intrapapillary Hemorrhage",
+      "cat": [
+        "neuro-op",
+        "glaucoma"
+      ]
+    },
+    {
+      "name": "condition675",
+      "imgSrc": "photos/optic-nerve-pit/Fig1-optic-nerve-pit-OD-LRG.jpg",
+      "src": "pages/optic-nerve-pit.htm",
+      "title": "Optic Nerve Pit",
+      "cat": [
+        "neuro-ophthalmology",
+        "retina",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition716",
+      "imgSrc": "https://eyerounds.org/atlas/photos/myelinated-NFL-A-BC.jpg",
+      "src": "https://eyerounds.org/atlas/pages/myelinated-NFL.htm",
+      "title": "Myelinated nerve fiber layer",
+      "cat": [
+        "retina",
+        "vitreous",
+        "neuro-ophthalmology"
+      ]
+    }
+  ]
+}

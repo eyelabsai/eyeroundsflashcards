@@ -1,0 +1,318 @@
+{
+  "category": "UVEITIS",
+  "count": 31,
+  "entries": [
+    {
+      "name": "condition19",
+      "imgSrc": "thumbnails/APMPPE-THUMB.jpg",
+      "src": "pages/APMPPE/index.htm",
+      "title": "Acute posterior multifocal placoid pigment epitheliopathy (APMPPE)",
+      "cat": [
+        "uveitis",
+        "vitreous",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition29",
+      "imgSrc": "thumbnails/leukemichypopyon_slitlamp-thumbnail.jpg",
+      "src": "pages/Leukemic%20pseudohypopyon/leukemic-pseudohypopyon.htm",
+      "title": "Leukemic pseudohypopyon",
+      "cat": [
+        "uveitis",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition46",
+      "imgSrc": "pages/Central-posterior-synechiae/CPS.jpg",
+      "src": "pages/Central-posterior-synechiae/index.htm",
+      "title": "Central posterior synechiae (CPS) in the setting of tubulointerstitial nephritis and uveitis syndrome (TINU) ",
+      "cat": [
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition154",
+      "imgSrc": "pages/KP-Keratic-precipitates-in-JIA/keratitis-RA-ppt.jpg",
+      "src": "pages/KP-Keratic-precipitates-in-JIA/index.htm",
+      "title": "Keratic precipitates (KP) in juvenile idiopathic arthritis (JIA)",
+      "cat": [
+        "cornea",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition155",
+      "imgSrc": "https://eyerounds.org/atlas/pages/KP-Mutton-Fat-keratic-PPT/KP_Scleral_Scatter.jpg",
+      "src": "pages/KP-Mutton-Fat-keratic-PPT/index.htm",
+      "title": "Mutton Fat Keratic Precipitates (KP)",
+      "cat": [
+        "cornea",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition162",
+      "imgSrc": "pages/lens-material-in-AC/Displaced-lens-material.jpg",
+      "src": "pages/lens-material-in-AC/index.htm",
+      "title": "Lens material in the anterior chamber causing chronic uveitis",
+      "cat": [
+        "lens",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition178",
+      "imgSrc": "pages/MEWDS/MEWDS-fundus.jpg",
+      "src": "pages/MEWDS/index.htm",
+      "title": "Multiple evanescent white dot syndrome (MEWDS)",
+      "cat": [
+        "retina",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition216",
+      "imgSrc": "pages/PIC/PIC.jpg",
+      "src": "pages/PIC/index.htm",
+      "title": "Punctate inner choroiditis (PIC)",
+      "cat": [
+        "retina",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition249",
+      "imgSrc": "pages/Scleromalacia-in-RA/external-OD.jpg",
+      "src": "pages/Scleromalacia-in-RA/index.htm",
+      "title": "Scleromalacia in Rheumatoid Arthritis",
+      "cat": [
+        "cornea",
+        "ex_disease",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition253",
+      "imgSrc": "pages/Serpiginous-choroidopathy/serpiginous-OS.jpg",
+      "src": "pages/Serpiginous-choroidopathy/index.htm",
+      "title": "Serpiginous choroidopathy",
+      "cat": [
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition272",
+      "imgSrc": "pages/toxocara/toxocara.jpg",
+      "src": "pages/toxocara/index.htm",
+      "title": "Ocular toxocariasis",
+      "cat": [
+        "retina",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition276",
+      "imgSrc": "pages/vasculitis/vasculitis-OD-montage.jpg",
+      "src": "pages/vasculitis/index.htm",
+      "title": "Vascular sheathing in idiopathic retinal vasculitis",
+      "cat": [
+        "retina",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition303",
+      "imgSrc": "photos/Anterior-vitreous-Inflammation.jpg",
+      "src": "pages/anterior-vitreous-inflammation.htm",
+      "title": "Anterior vitreous inflammation in autoimmune retinopathy",
+      "cat": [
+        "retina",
+        "vitreous",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition319",
+      "imgSrc": "photos/birdshotChorioretinopathy-colorOS.jpg",
+      "src": "pages/Birdshot-chorioretinopathy.htm",
+      "title": "Birdshot chorioretinopathy",
+      "cat": [
+        "uveitis",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition389",
+      "imgSrc": "thumbnails/post-trab.jpg",
+      "src": "pages/endophthalmitis.html",
+      "title": "Endophthalmitis",
+      "cat": [
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition464",
+      "imgSrc": "http://eyerounds.org/atlas/photos/leukemic-hypopyon/leukemichypopyon_slitlamp_THUMB.jpg",
+      "src": "pages/leukemic-pseudohypopyon.htm",
+      "title": "Leukemic pseudohypopyon",
+      "cat": [
+        "uveitis",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition474",
+      "imgSrc": "thumbnails/madarosis-THUMB.jpg",
+      "src": "pages/Madarosis.html",
+      "title": "Madarosis",
+      "cat": [
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition499",
+      "imgSrc": "thumbnails/nodular-scleritis-THUMBS.jpg",
+      "src": "pages/nodular-anterior-scleritis.htm",
+      "title": "Nodular anterior scleritis",
+      "cat": [
+        "cornea",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition505",
+      "imgSrc": "https://eyerounds.org/atlas/thumbnails/ocular-toxoplasmosis-THUMB.jpg",
+      "src": "pages/ocular-toxoplasmosis.htm",
+      "title": "Ocular Toxoplasmosis",
+      "cat": [
+        "retina",
+        "vitreous",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition506",
+      "imgSrc": "https://eyerounds.org/atlas/photos/toxoplasmosis/ocular-toxoplasmosis-new-THUMB.jpg",
+      "src": "pages/ocular-toxoplasmosis-2.htm",
+      "title": "Ocular toxoplasmosis (2)",
+      "cat": [
+        "retina",
+        "vitreous",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition522",
+      "imgSrc": "thumbnails/OD_06012004.jpg",
+      "src": "pages/pan-endophthalmitis.html",
+      "title": "Pan-endophthalmitis",
+      "cat": [
+        "uveitis",
+        "glaucoma"
+      ]
+    },
+    {
+      "name": "condition524",
+      "imgSrc": "thumbnails/snow-banking.jpg",
+      "src": "pages/pars-planitis.html",
+      "title": "Pars planitis",
+      "cat": [
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition579",
+      "imgSrc": "thumbnails/sarcoid-uveitis-THUMB.jpg",
+      "src": "pages/sarcoid-uveitis.htm",
+      "title": "Sarcoid Uveitis",
+      "cat": [
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition589",
+      "imgSrc": "thumbnails/Sarcoidosis-THUMB.jpg",
+      "src": "pages/Sarcoidosis.htm",
+      "title": "Sarcoidosis",
+      "cat": [
+        "Uveitis"
+      ]
+    },
+    {
+      "name": "condition591",
+      "imgSrc": "thumbnails/Post-Scleritis_02152005-1.jpg",
+      "src": "pages/Scleritis-scleral-thinning.html",
+      "title": "Scleritis, scleral thinning",
+      "cat": [
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition615",
+      "imgSrc": "https://webeye.ophth.uiowa.edu/eyeforum/atlas/photos/sympathizing-eye/pseudocolor-fundus-os.jpg",
+      "src": "pages/sympathizing-eye.htm",
+      "title": "The Sympathizing Eye: Panuveitis Secondary to Sympathetic Ophthalmia",
+      "cat": [
+        "retina",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition620",
+      "imgSrc": "thumbnails/redeye2_03042004.jpg",
+      "src": "pages/TB-Uveitis.html",
+      "title": "TB Uveitis",
+      "cat": [
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition629",
+      "imgSrc": "thumbnails/redeye1.jpg",
+      "src": "pages/tuberculosis-TB-uveitis-iritis.html",
+      "title": "Tuberculosis (TB) uveitis - iritis",
+      "cat": [
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition632",
+      "imgSrc": "https://eyerounds.org/atlas/photos/Uveal-effusion/Fig1-THUMB.jpg",
+      "src": "pages/uveal-effusion.htm",
+      "title": "Uveal Effusion Syndrome",
+      "cat": [
+        "retina",
+        "vitreous",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition686",
+      "imgSrc": "https://eyerounds.org/atlas/pages/imgs/R_3e5dpU77mkhr8x6_ARN.png",
+      "src": "https://eyerounds.org/atlas/pages/Acute_Retinal_Necrosis.html",
+      "title": "Acute Retinal Necrosis",
+      "cat": [
+        "retina",
+        "viterous",
+        "uveitis"
+      ]
+    },
+    {
+      "name": "condition699",
+      "imgSrc": "https://eyerounds.org/atlas/pages/imgs/Fig1_Fundus_pars_plantis.jpg",
+      "src": "https://eyerounds.org/atlas/pages/Bilateral-Retinoschisis-Associated-Retinal-Detachments-Pars-Planitis.htm#gsc.tab=0",
+      "title": "Bilateral Retinoschisis-Associated Retinal Detachments in Pars Planitis",
+      "cat": [
+        "retina",
+        "new",
+        "vitreous",
+        "uveitis"
+      ]
+    }
+  ]
+}

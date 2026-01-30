@@ -1,0 +1,38 @@
+{
+  "title": "Ophthalmology and Visual Sciences",
+  "url": "https://eyerounds.org/atlas/pages/Acute-macular-neuroretinopathy/index.htm",
+  "entries": [
+    {
+      "contributor": "",
+      "photographers": "",
+      "description": "44-year-old female with acute onset of paracentral scotomas in right eye (corresponded directly to Amsler grid findings)",
+      "images": [
+        {
+          "url": "https://eyerounds.org/atlas/pages/Acute-macular-neuroretinopathy/AMN_2008a.jpg",
+          "alt": "AMN Fundus",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/pages/Acute-macular-neuroretinopathy/AMN_2008b.jpg",
+          "alt": "Paracentral Scotomaa",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/atlas/photos/cc.png",
+          "alt": "Creative Commons",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/i/current/lowerLogo.png",
+          "alt": "Univeristy of Iowa Carver Colege of Medicine Logo",
+          "figure_label": ""
+        },
+        {
+          "url": "https://eyerounds.org/i/current/lowerLogo.png",
+          "alt": "Univeristy of Iowa Carver Colege of Medicine Logo",
+          "figure_label": ""
+        }
+      ]
+    }
+  ]
+}

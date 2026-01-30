@@ -1,0 +1,393 @@
+{
+  "category": "INHERITED DISEASE",
+  "count": 35,
+  "entries": [
+    {
+      "name": "condition6",
+      "imgSrc": "thumbnails/Aicardi-THUMB.jpg",
+      "src": "pages/Aicardi/index.htm",
+      "title": "Aicardi syndrome",
+      "cat": [
+        "inherited",
+        "peds"
+      ]
+    },
+    {
+      "name": "condition25",
+      "imgSrc": "thumbnails/axenfeld-rieger-thumbnail.jpg",
+      "src": "pages/Axenfeld-Rieger/index.htm",
+      "title": "Axenfeld-Rieger syndrome",
+      "cat": [
+        "glaucoma",
+        "iris",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition63",
+      "imgSrc": "pages/CNVM-PXE/PXE-w-involuted-CNVM-LRG.jpg",
+      "src": "pages/CNVM-PXE/index.htm",
+      "title": "Involuted choroidal neovascular membrane (CNVM) mimicking a granuloma in pseudoxanthoma elasticum (PXE) ",
+      "cat": [
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition69",
+      "imgSrc": "http://webeye.ophth.uiowa.edu/eyeforum/cases-i/case211/L/1b-OS-LRG.jpg",
+      "src": "pages/Congen-Aniridia/index.htm",
+      "title": "Congenital aniridia ",
+      "cat": [
+        "cornea",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition70",
+      "imgSrc": "http://webeye.ophth.uiowa.edu/eyeforum/cases-i/case211/L/4a-aniridia-preop-LRG.jpg",
+      "src": "pages/congen-aniridia-2/index.htm",
+      "title": "Congenital aniridia(2) ",
+      "cat": [
+        "cornea",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition116",
+      "imgSrc": "pages/FEVR/FEVR.jpg",
+      "src": "pages/FEVR/index.htm",
+      "title": "Familial Exudative Vitreoretinopathy (FEVR)(3)",
+      "cat": [
+        "peds",
+        "genetics",
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition116",
+      "imgSrc": "pages/FEVR/FEVR.jpg",
+      "src": "pages/FEVR/index.htm",
+      "title": "Familial Exudative Vitreoretinopathy (FEVR)(3)",
+      "cat": [
+        "peds",
+        "genetics",
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition117",
+      "imgSrc": "photos/FEVR-OD-Composite.jpg",
+      "src": "pages/FEVR.htm",
+      "title": "Familial Exudative Vitreoretinopathy (FEVR)(1)",
+      "cat": [
+        "peds",
+        "genetics",
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition118",
+      "imgSrc": "pages/FEVR-2/FEVR.jpg",
+      "src": "pages/FEVR-2/index.htm",
+      "title": "Familial exudative vitreoretinopathy (FEVR)(2)",
+      "cat": [
+        "peds",
+        "genetics",
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition127",
+      "imgSrc": "pages/Granular-corneal-dystrophy/GCD-OS-diffuse.jpg",
+      "src": "pages/Granular-corneal-dystrophy/index.htm",
+      "title": "Granular corneal dystrophy",
+      "cat": [
+        "cornea",
+        "genetics",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition172",
+      "imgSrc": "pages/Megalocornea/megalocornea-oblique.jpg",
+      "src": "pages/Megalocornea/index.htm",
+      "title": "Megalocornea",
+      "cat": [
+        "cornea",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition213",
+      "imgSrc": "http://webeye.ophth.uiowa.edu/eyeforum/cases-i/case187/Peter-Fig-3.jpg",
+      "src": "pages/Peters/index.htm",
+      "title": "Peters anomaly",
+      "cat": [
+        "cornea",
+        "inherited",
+        "peds"
+      ]
+    },
+    {
+      "name": "condition223",
+      "imgSrc": "photos/pseudoexfoliation-syndrome/PXFIOL1.jpg",
+      "src": "pages/pseudoexfoliation-syndrome/index.htm",
+      "title": "Pseudoexfoliation syndrome",
+      "cat": [
+        "cataract",
+        "lens",
+        "glaucoma",
+        "iris",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition234",
+      "imgSrc": "pages/Retinal-hemangioblastoma-VHL/Angioma-1.jpg",
+      "src": "pages/Retinal-hemangioblastoma-VHL/index.htm",
+      "title": "Retinal hemangioblastoma associated with Von-Hippel Lindau syndrome",
+      "cat": [
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition239",
+      "imgSrc": "pages/Riley-Day/Riley-Day-OS.jpg",
+      "src": "pages/Riley-Day/index.htm",
+      "title": "Riley-Day Syndrome (Familial Dysautonomia) with Neurotrophic Keratopathy",
+      "cat": [
+        "cornea",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition245",
+      "imgSrc": "pages/Schnyder-dystrophy/schnyder-OD.jpg",
+      "src": "pages/Schnyder-dystrophy/index.htm",
+      "title": "Schnyder Corneal Dystrophy",
+      "cat": [
+        "cornea",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition252",
+      "imgSrc": "pages/sectoral-RP/sectoral-RP-OD.jpg",
+      "src": "pages/sectoral-RP/index.htm",
+      "title": "Sectoral retinitis pigmentosa",
+      "cat": [
+        "retina",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition293",
+      "imgSrc": "photos/ADNIV.jpg",
+      "src": "pages/ADNIV.htm",
+      "title": "Autosomal dominant neovascular inflammatory vitreoretinopathy (ADNIV)",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition313",
+      "imgSrc": "photos/Bardet-Biedl-OD.jpg",
+      "src": "pages/bardet-biedl.htm",
+      "title": "Bardet-Biedl Syndrome",
+      "cat": [
+        "retina",
+        "vitreous",
+        "nherited"
+      ]
+    },
+    {
+      "name": "condition315",
+      "imgSrc": "photos/Batten-Disease-2-LARGE.jpg",
+      "src": "pages/batten-disease.htm",
+      "title": "Batten Disease",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition345",
+      "imgSrc": "photos/choroidal/choroideremia-OD.jpg",
+      "src": "pages/Choroideremia.htm",
+      "title": "Choroideremia",
+      "cat": [
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition385",
+      "imgSrc": "http://eyerounds.org/atlas/photos/Dominant-Optic-Atrophy/DOA-OS-THUMB.jpg",
+      "src": "pages/Dominant-optic-atrophy.htm",
+      "title": "Dominant optic atrophy",
+      "cat": [
+        "inherited",
+        "neuro-op"
+      ]
+    },
+    {
+      "name": "condition397",
+      "imgSrc": "thumbnails/erosive-vitreoretinopathy-THUMB.jpg",
+      "src": "pages/erosive-vitreoretinopathy2.htm",
+      "title": "Erosive vitreoretinopathy",
+      "cat": [
+        "retina",
+        "vitreous",
+        "inherited",
+        "ex_disease"
+      ]
+    },
+    {
+      "name": "condition412",
+      "imgSrc": "thumbnails/granular-dystrophy-tp1-THUMB.jpg",
+      "src": "pages/granular-corneal-dystrophy-type-1.htm",
+      "title": "Granular corneal dystrophy type 1",
+      "cat": [
+        "cornea",
+        "genetics",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition418",
+      "imgSrc": "thumbnails/gyrate-atrophy-THUMB.jpg",
+      "src": "pages/gyrate-atrophy.htm",
+      "title": "Gyrate atrophy",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition461",
+      "imgSrc": "thumbnails/LCA-OD-fig1.jpg",
+      "src": "pages/LCA.htm",
+      "title": "Leber Congenital Amaurosis, RPE65-associated",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition462",
+      "imgSrc": "thumbnails/LCHADD-THUMB.jpg",
+      "src": "pages/LCHADD.htm",
+      "title": "LCHADD: long chain 3-hydroxyacyl CoA dehydrogenase deficiency",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition471",
+      "imgSrc": "thumbnails/macular-corneal-dystrophy-THUMB.jpg",
+      "src": "pages/macular-corneal-dystrophy.htm",
+      "title": "Corneal macular dystrophy",
+      "cat": [
+        "inherited",
+        "cornea"
+      ]
+    },
+    {
+      "name": "condition503",
+      "imgSrc": "thumbnails/NCMD-THUMB.jpg",
+      "src": "pages/north-carolina-macular-dystrophy.htm",
+      "title": "North Carolina macular dystrophy",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition525",
+      "imgSrc": "https://eyerounds.org/atlas/photos/Pattern-dystrophy/Pattern-dystrophy-OD-montage-THUMB.jpg",
+      "src": "pages/pattern-dystrophy.html",
+      "title": "Pattern dystrophy",
+      "cat": [
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition570",
+      "imgSrc": "https://eyerounds.org/atlas/photos/Retinitis-pigmentosa/RP-montage-OS-THUMB.jpg",
+      "src": "pages/etinitis-pigmentosa-RP.html",
+      "title": "Retinitis pigmentosa (RP)",
+      "cat": [
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition603",
+      "imgSrc": "thumbnails/sorsby-THUMB.jpg",
+      "src": "pages/sorsby.htm",
+      "title": "Sorsby macular dystrophy",
+      "cat": [
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition606",
+      "imgSrc": "thumbnails/stargardt-13-OD-THUMB.jpg",
+      "src": "pages/Stargardt-disease-13.htm",
+      "title": "Stargardt disease",
+      "cat": [
+        "genetics",
+        "inherited",
+        "ex_disease",
+        "retina",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition631",
+      "imgSrc": "thumbnails/Usher-OS-THUMB.jpg",
+      "src": "pages/usher.htm",
+      "title": "Usher syndrome",
+      "cat": [
+        "retina",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition675",
+      "imgSrc": "photos/optic-nerve-pit/Fig1-optic-nerve-pit-OD-LRG.jpg",
+      "src": "pages/optic-nerve-pit.htm",
+      "title": "Optic Nerve Pit",
+      "cat": [
+        "neuro-ophthalmology",
+        "retina",
+        "inherited"
+      ]
+    }
+  ]
+}

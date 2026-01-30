@@ -1,0 +1,299 @@
+{
+  "category": "GENETICS",
+  "count": 26,
+  "entries": [
+    {
+      "name": "condition4",
+      "imgSrc": "thumbnails/AMN-THUMB.jpg",
+      "src": "pages/Acute-macular-neuroretinopathy/index.htm",
+      "title": "Acute Macular Neuroretinopathy (AMN)",
+      "cat": [
+        "genetics",
+        "ex_disease",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition10",
+      "imgSrc": "thumbnails/avellino-zoom-LRG.jpg",
+      "src": "pages/Avellino/index.htm",
+      "title": "Avellino Dystrophy",
+      "cat": [
+        "genetics",
+        "cornea"
+      ]
+    },
+    {
+      "name": "condition13",
+      "imgSrc": "thumbnails/leukemic_thumb.png",
+      "src": "pages/Leukemic%20pseudohypopyon/leukemic-pseudohypopyon.htm",
+      "title": "Leukemic pseudohypopyon",
+      "cat": [
+        "genetics",
+        "ex_disease",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition24",
+      "imgSrc": "thumbnails/avellino-thumb.jpg",
+      "src": "pages/Avellino/index.htm",
+      "title": "Avellino Dystrophy",
+      "cat": [
+        "genetics",
+        "cornea"
+      ]
+    },
+    {
+      "name": "condition116",
+      "imgSrc": "pages/FEVR/FEVR.jpg",
+      "src": "pages/FEVR/index.htm",
+      "title": "Familial Exudative Vitreoretinopathy (FEVR)(3)",
+      "cat": [
+        "peds",
+        "genetics",
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition116",
+      "imgSrc": "pages/FEVR/FEVR.jpg",
+      "src": "pages/FEVR/index.htm",
+      "title": "Familial Exudative Vitreoretinopathy (FEVR)(3)",
+      "cat": [
+        "peds",
+        "genetics",
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition117",
+      "imgSrc": "photos/FEVR-OD-Composite.jpg",
+      "src": "pages/FEVR.htm",
+      "title": "Familial Exudative Vitreoretinopathy (FEVR)(1)",
+      "cat": [
+        "peds",
+        "genetics",
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition118",
+      "imgSrc": "pages/FEVR-2/FEVR.jpg",
+      "src": "pages/FEVR-2/index.htm",
+      "title": "Familial exudative vitreoretinopathy (FEVR)(2)",
+      "cat": [
+        "peds",
+        "genetics",
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition127",
+      "imgSrc": "pages/Granular-corneal-dystrophy/GCD-OS-diffuse.jpg",
+      "src": "pages/Granular-corneal-dystrophy/index.htm",
+      "title": "Granular corneal dystrophy",
+      "cat": [
+        "cornea",
+        "genetics",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition293",
+      "imgSrc": "photos/ADNIV.jpg",
+      "src": "pages/ADNIV.htm",
+      "title": "Autosomal dominant neovascular inflammatory vitreoretinopathy (ADNIV)",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition315",
+      "imgSrc": "photos/Batten-Disease-2-LARGE.jpg",
+      "src": "pages/batten-disease.htm",
+      "title": "Batten Disease",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition316",
+      "imgSrc": "photos/bear-tracks.jpg",
+      "src": "pages/bear-tracks-CHRPE.htm",
+      "title": "Congenital hypertrophy of the retinal pigmented epithelium (CHRPE) in a \"bear tracks\" configuration",
+      "cat": [
+        "genetics",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition374",
+      "imgSrc": "thumbnails/cuticular-drusen-THUMB.jpg",
+      "src": "pages/cuticular-drusen.htm",
+      "title": "Cuticular Drusen",
+      "cat": [
+        "genetics",
+        "retina",
+        "vitreous",
+        "new"
+      ]
+    },
+    {
+      "name": "condition387",
+      "imgSrc": "thumbnails/ectopia-lentis-marfan-THUMB.jpg",
+      "src": "pages/ectopia-lentis-marfan-syn.html",
+      "title": "Ectopia lentis in Marfan's syndrome",
+      "cat": [
+        "lens",
+        "genetics"
+      ]
+    },
+    {
+      "name": "condition412",
+      "imgSrc": "thumbnails/granular-dystrophy-tp1-THUMB.jpg",
+      "src": "pages/granular-corneal-dystrophy-type-1.htm",
+      "title": "Granular corneal dystrophy type 1",
+      "cat": [
+        "cornea",
+        "genetics",
+        "inherited"
+      ]
+    },
+    {
+      "name": "condition418",
+      "imgSrc": "thumbnails/gyrate-atrophy-THUMB.jpg",
+      "src": "pages/gyrate-atrophy.htm",
+      "title": "Gyrate atrophy",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition459",
+      "imgSrc": "thumbnails/lattice-corneal-dystrophy-THUMB.jpg",
+      "src": "pages/lattice-corneal-dystrophy.htm",
+      "title": "Lattice corneal dystrophy",
+      "cat": [
+        "cornea",
+        "genetics",
+        "ex_disease"
+      ]
+    },
+    {
+      "name": "condition461",
+      "imgSrc": "thumbnails/LCA-OD-fig1.jpg",
+      "src": "pages/LCA.htm",
+      "title": "Leber Congenital Amaurosis, RPE65-associated",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition462",
+      "imgSrc": "thumbnails/LCHADD-THUMB.jpg",
+      "src": "pages/LCHADD.htm",
+      "title": "LCHADD: long chain 3-hydroxyacyl CoA dehydrogenase deficiency",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition503",
+      "imgSrc": "thumbnails/NCMD-THUMB.jpg",
+      "src": "pages/north-carolina-macular-dystrophy.htm",
+      "title": "North Carolina macular dystrophy",
+      "cat": [
+        "genetics",
+        "inherited",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition507",
+      "imgSrc": "thumbnails/oculocutaneous-albinism-THUMB.jpg",
+      "src": "pages/oculocutaneous-albinism.htm",
+      "title": "Oculocutaneous albinism",
+      "cat": [
+        "genetics",
+        "peds"
+      ]
+    },
+    {
+      "name": "condition561",
+      "imgSrc": "thumbnails/PXE-THUMB.jpg",
+      "src": "pages/PXE.htm",
+      "title": "Pseudoxanthoma elasticum",
+      "cat": [
+        "retina",
+        "vitreous",
+        "genetics"
+      ]
+    },
+    {
+      "name": "condition606",
+      "imgSrc": "thumbnails/stargardt-13-OD-THUMB.jpg",
+      "src": "pages/Stargardt-disease-13.htm",
+      "title": "Stargardt disease",
+      "cat": [
+        "genetics",
+        "inherited",
+        "ex_disease",
+        "retina",
+        "retina"
+      ]
+    },
+    {
+      "name": "condition618",
+      "imgSrc": "thumbnails/tapetal-sheen-OS-THUMB.jpg",
+      "src": "pages/Tapetal-sheen.htm",
+      "title": "Tapetal Sheen",
+      "cat": [
+        "retina",
+        "vitreous",
+        "genetics"
+      ]
+    },
+    {
+      "name": "condition644",
+      "imgSrc": "thumbnails/XLRS-THUMB.jpg",
+      "src": "pages/XLRS.htm",
+      "title": "X-linked retinoschisis (XLRS)",
+      "cat": [
+        "genetics",
+        "retina",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition648",
+      "imgSrc": "thumbnails/Angioid-streaks-THUMB.jpg",
+      "src": "pages/angioid-streaks-optic-disc-drusen-pseudoxanthoma-elasticum.htm",
+      "title": "Angioid Streaks and Optic Disc Drusen in Pseudoxanthoma Elasticum",
+      "cat": [
+        "genetics",
+        "ex_disease",
+        "retina"
+      ]
+    }
+  ]
+}

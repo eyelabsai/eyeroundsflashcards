@@ -1,0 +1,170 @@
+{
+  "category": "PATHOLOGY",
+  "count": 17,
+  "entries": [
+    {
+      "name": "condition31",
+      "imgSrc": "thumbnails/basal-cell-carcinoma-nodular-a.jpg",
+      "src": "pages/basal-cell-carcinoma/bcc-nodular.htm",
+      "title": "Basal cell carcinoma (nodular type)",
+      "cat": [
+        "path"
+      ]
+    },
+    {
+      "name": "condition290",
+      "imgSrc": "photos/actinomyces-israelii-dacryolith-1-WEB.jpg",
+      "src": "pages/actinomyces-dacryolith.htm",
+      "title": "Dacryolith due to Actinomyces israelii",
+      "cat": [
+        "path"
+      ]
+    },
+    {
+      "name": "condition341",
+      "imgSrc": "../cases-i/case190/LARGE/Fig1.jpg",
+      "src": "pages/Choroidal-malignant-melanoma-collar-button.htm",
+      "title": "Choroidal malignant melanoma in a \"collar button\" configuration",
+      "cat": [
+        "retina",
+        "path",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition343",
+      "imgSrc": "photos/choroidal/choroidal-melanoma-17.jpg",
+      "src": "pages/choroidal-melanoma-histo.htm",
+      "title": "Choroidal melanoma, histology",
+      "cat": [
+        "retina",
+        "path",
+        "vitreous"
+      ]
+    },
+    {
+      "name": "condition407",
+      "imgSrc": "thumbnails/giant-cell-arteritis-23-THUMB.jpg",
+      "src": "pages/giant-cell-arteritis-23.htm",
+      "title": "Giant cell arteritis",
+      "cat": [
+        "path"
+      ]
+    },
+    {
+      "name": "condition413",
+      "imgSrc": "thumbnails/granular-dystrophy-14-THUMB.jpg",
+      "src": "pages/granular-dystrophy-14.htm",
+      "title": "Granular dystrophy",
+      "cat": [
+        "pathology"
+      ]
+    },
+    {
+      "name": "condition537",
+      "imgSrc": "thumbnails/Conj-Nevus-etc0022.jpg",
+      "src": "pages/Pigmented-Conjunctival-Nevus.html",
+      "title": "EyeRounds Online Atlas of Ophthalmology",
+      "cat": [
+        "path"
+      ]
+    },
+    {
+      "name": "condition539",
+      "imgSrc": "thumbnails/pleomorphic-adenoma-7-THUMB.jpg",
+      "src": "pages/pleomorphic-adenoma.htm",
+      "title": "Pleomorphic adenoma",
+      "cat": [
+        "path"
+      ]
+    },
+    {
+      "name": "condition540",
+      "imgSrc": "thumbnails/plexiform-neurofibroma-15-THUMB.jpg",
+      "src": "pages/plexiform-neurofibroma.htm",
+      "title": "Plexiform neurofibroma",
+      "cat": [
+        "path"
+      ]
+    },
+    {
+      "name": "condition572",
+      "imgSrc": "thumbnails/retinoblastoma-path-1-THUMB.jpg",
+      "src": "pages/retinoblastoma-path.htm",
+      "title": "Retinoblastoma",
+      "cat": [
+        "path"
+      ]
+    },
+    {
+      "name": "condition599",
+      "imgSrc": "thumbnails/seborrheic-keratosis-12-THUMB.jpg",
+      "src": "pages/seborrheic-keratosis.htm",
+      "title": "Seborrheic keratosis",
+      "cat": [
+        "path"
+      ]
+    },
+    {
+      "name": "condition651",
+      "imgSrc": "thumbnails/band-keratopathy-THUMB.jpg",
+      "src": "pages/band-keratopathy.htm",
+      "title": "Band keratopathy",
+      "cat": [
+        "pathology",
+        "cornea",
+        "path"
+      ]
+    },
+    {
+      "name": "condition651",
+      "imgSrc": "thumbnails/band-keratopathy-THUMB.jpg",
+      "src": "pages/band-keratopathy.htm",
+      "title": "Band keratopathy",
+      "cat": [
+        "pathology",
+        "cornea",
+        "path"
+      ]
+    },
+    {
+      "name": "condition664",
+      "imgSrc": "thumbnails/chalazion-22-THUMB.jpg",
+      "src": "pages/chalazion-histo.htm",
+      "title": "Chalazion",
+      "cat": [
+        "path"
+      ]
+    },
+    {
+      "name": "condition666",
+      "imgSrc": "thumbnails/path1_03182004.jpg",
+      "src": "pages/cavernous-hemangioma.html",
+      "title": "Cavernous hemangioma",
+      "cat": [
+        "path",
+        "plastics"
+      ]
+    },
+    {
+      "name": "condition667",
+      "imgSrc": "https://webeye.ophth.uiowa.edu/eyeforum/atlas/photos/pseudoexfoliation_syndrome/Fig1b-pseudoexfoliation-syndrome.jpg",
+      "src": "pages/cavernous-hemangioma.html",
+      "title": "Cavernous hemangioma",
+      "cat": [
+        "path",
+        "plastics"
+      ]
+    },
+    {
+      "name": "condition704",
+      "imgSrc": "https://eyerounds.org/atlas/pages/imgs/R_59V6Qnll3BZGbKx_Bergmeister_papilla.png",
+      "src": "https://eyerounds.org/atlas/pages/bergmeister-papilla.htm",
+      "title": "Bergmeister Papilla",
+      "cat": [
+        "path",
+        "new"
+      ]
+    }
+  ]
+}
