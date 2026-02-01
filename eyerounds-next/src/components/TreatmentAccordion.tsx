@@ -116,7 +116,7 @@ export default function TreatmentAccordion({ treatment, loading }: TreatmentAcco
       {/* Accordion Sections - all expanded by default */}
       <div className="divide-y divide-gray-100 overflow-y-auto max-h-[calc(100vh-12rem)]">
         {sections.map((section, index) => (
-          <details key={index} open className="group">
+          <details key={index} open={true} className="group">
             <summary
               className={`px-4 py-3 font-semibold cursor-pointer flex items-center gap-2 hover:brightness-95 transition-all text-base ${section.colorClass}`}
             >
