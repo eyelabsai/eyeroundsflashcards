@@ -107,25 +107,25 @@ export default function TreatmentAccordion({ treatment, loading }: TreatmentAcco
   }
 
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+    <div className="bg-white rounded-xl shadow-lg overflow-hidden w-full min-w-0 flex-1 flex flex-col">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 py-3 font-semibold flex items-center gap-2">
+      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 py-3 font-semibold flex items-center gap-2 text-base">
         📋 Oral Boards Study Guide
       </div>
 
-      {/* Accordion Sections */}
-      <div className="divide-y divide-gray-100">
+      {/* Accordion Sections - all expanded by default */}
+      <div className="divide-y divide-gray-100 overflow-y-auto max-h-[calc(100vh-12rem)]">
         {sections.map((section, index) => (
-          <details key={index} open={index === 0} className="group">
+          <details key={index} open className="group">
             <summary
-              className={`px-4 py-3 font-semibold cursor-pointer flex items-center gap-2 hover:brightness-95 transition-all ${section.colorClass}`}
+              className={`px-4 py-3 font-semibold cursor-pointer flex items-center gap-2 hover:brightness-95 transition-all text-base ${section.colorClass}`}
             >
               <span className="accordion-arrow text-xs">▶</span>
               {section.title}
             </summary>
-            <div className="px-4 py-3 bg-gray-50 text-sm leading-relaxed">
+            <div className="px-4 py-3 bg-gray-50 text-base leading-relaxed">
               <div
-                className="prose prose-sm max-w-none"
+                className="prose prose-base max-w-none"
                 dangerouslySetInnerHTML={{ __html: formatContent(section.content) }}
               />
             </div>

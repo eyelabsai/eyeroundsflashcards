@@ -107,7 +107,7 @@ export default function FlashcardViewer({ flashcards, initialIndex = 0 }: Flashc
   }
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-6xl mx-auto px-2">
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-4 mb-4 text-center">
         <h1 className="text-xl font-bold flex items-center justify-center gap-2">
@@ -130,57 +130,65 @@ export default function FlashcardViewer({ flashcards, initialIndex = 0 }: Flashc
         {revealed ? card.title : 'What is the diagnosis?'}
       </h2>
 
-      {/* Images */}
-      <div className="bg-gray-50 rounded-xl p-4 mb-4">
-        <h3 className="text-sm font-medium text-gray-600 mb-3 flex items-center gap-2">
-          🖼️ Clinical Images
-        </h3>
-        <ImageGallery images={card.images} showCaptions={revealed} />
-      </div>
-
-      {/* Reveal Button or Answer */}
       {!revealed ? (
-        <div className="text-center py-6">
-          <button
-            onClick={reveal}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl"
-          >
-            👁️ Reveal Answer
-          </button>
-          <p className="text-gray-500 text-sm mt-3">
-            Press <kbd className="bg-gray-200 px-2 py-0.5 rounded">Space</kbd> or{' '}
-            <kbd className="bg-gray-200 px-2 py-0.5 rounded">Enter</kbd> to reveal
-          </p>
-        </div>
-      ) : (
-        <div className="space-y-4">
-          {/* Answer */}
-          <div className="bg-green-50 border-l-4 border-green-500 rounded-r-xl p-4">
-            <h3 className="text-green-700 font-semibold mb-2">✅ Answer</h3>
-            <p className="font-bold text-lg">{card.title}</p>
-            {card.description && (
-              <p className="text-gray-700 mt-2">{card.description}</p>
-            )}
+        <>
+          {/* Images */}
+          <div className="bg-gray-50 rounded-xl p-4 mb-4">
+            <h3 className="text-sm font-medium text-gray-600 mb-3 flex items-center gap-2">
+              🖼️ Clinical Images
+            </h3>
+            <ImageGallery images={card.images} showCaptions={false} />
           </div>
-
-          {/* Contributor Info */}
-          {(card.contributor || card.photographer || card.source_url) && (
-            <div className="text-sm text-gray-600 space-y-1">
-              {card.contributor && <p><strong>Contributor:</strong> {card.contributor}</p>}
-              {card.photographer && <p><strong>Photographer:</strong> {card.photographer}</p>}
-              {card.source_url && (
-                <p>
-                  <strong>Source:</strong>{' '}
-                  <a href={card.source_url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                    {card.source_url}
-                  </a>
-                </p>
+          <div className="text-center py-6">
+            <button
+              onClick={reveal}
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl"
+            >
+              👁️ Reveal Answer
+            </button>
+            <p className="text-gray-500 text-sm mt-3">
+              Press <kbd className="bg-gray-200 px-2 py-0.5 rounded">Space</kbd> or{' '}
+              <kbd className="bg-gray-200 px-2 py-0.5 rounded">Enter</kbd> to reveal
+            </p>
+          </div>
+        </>
+      ) : (
+        {/* Side-by-side: images + answer on left, Oral Boards Study Guide on right */}
+        <div className="grid gap-6 grid-cols-1 lg:grid-cols-[1fr_1.15fr]">
+          {/* Left: Images, Answer, Contributor */}
+          <div className="space-y-4 min-w-0">
+            <div className="bg-gray-50 rounded-xl p-4">
+              <h3 className="text-sm font-medium text-gray-600 mb-3 flex items-center gap-2">
+                🖼️ Clinical Images
+              </h3>
+              <ImageGallery images={card.images} showCaptions={revealed} />
+            </div>
+            <div className="bg-green-50 border-l-4 border-green-500 rounded-r-xl p-4">
+              <h3 className="text-green-700 font-semibold mb-2">✅ Answer</h3>
+              <p className="font-bold text-lg">{card.title}</p>
+              {card.description && (
+                <p className="text-gray-700 mt-2 text-base">{card.description}</p>
               )}
             </div>
-          )}
-
-          {/* Treatment Accordion */}
-          <TreatmentAccordion treatment={treatment} loading={loadingTreatment} />
+            {(card.contributor || card.photographer || card.source_url) && (
+              <div className="text-sm text-gray-600 space-y-1">
+                {card.contributor && <p><strong>Contributor:</strong> {card.contributor}</p>}
+                {card.photographer && <p><strong>Photographer:</strong> {card.photographer}</p>}
+                {card.source_url && (
+                  <p>
+                    <strong>Source:</strong>{' '}
+                    <a href={card.source_url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                      {card.source_url}
+                    </a>
+                  </p>
+                )}
+              </div>
+            )}
+          </div>
+          {/* Right: Oral Boards Study Guide - wider, bigger font, all expanded */}
+          <div className="min-w-0 flex flex-col min-h-0">
+            <TreatmentAccordion treatment={treatment} loading={loadingTreatment} />
+          </div>
         </div>
       )}
 

@@ -31,6 +31,36 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This app is ready to deploy on Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Option A: Deploy from this folder (eyerounds-next)
+
+1. **Push your code to GitHub** (if not already).
+
+2. **Go to [vercel.com/new](https://vercel.com/new)** and import your repository.
+
+3. **Set Root Directory:**  
+   In project settings, set **Root Directory** to `eyerounds-next` (because the Next.js app lives in that subfolder). Click **Edit** next to Root Directory and enter `eyerounds-next`.
+
+4. **Environment variable (for oral boards / treatment API):**  
+   In Project → Settings → Environment Variables, add:
+   - **Name:** `OPENAI_API_KEY`  
+   - **Value:** your OpenAI API key  
+   (Only needed if you use the “Get oral boards treatment” feature.)
+
+5. Click **Deploy**. Vercel will run `npm install` and `npm run build` in `eyerounds-next`.
+
+### Option B: Deploy from the command line
+
+From the repo root:
+
+```bash
+cd eyerounds-next
+npx vercel
+```
+
+When prompted for the root directory, confirm it’s `eyerounds-next` (or run `npx vercel` from inside `eyerounds-next`). Add `OPENAI_API_KEY` in the Vercel dashboard under Project → Settings → Environment Variables.
+
+---
+
+The flashcards data is in `public/flashcards.json` and is deployed with the app. No database is required for the basic flashcard UI.

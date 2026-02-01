@@ -25,51 +25,68 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
-    /* Main container - tight top/bottom to reduce wasted space */
+    /* Hide Streamlit header, toolbar, and footer completely */
+    #MainMenu {visibility: hidden !important;}
+    footer {visibility: hidden !important;}
+    header {visibility: hidden !important;}
+    [data-testid="stHeader"] {display: none !important;}
+    [data-testid="stToolbar"] {display: none !important;}
+    [data-testid="stDecoration"] {display: none !important;}
+    
+    /* Main container - zero top padding */
     .main .block-container {
-        padding-top: 0.5rem;
-        padding-bottom: 1rem;
-        max-width: 1200px;
+        padding-top: 0.5rem !important;
+        padding-bottom: 1rem !important;
+        max-width: 1000px;
     }
     
-    /* Streamlit default top padding - reduce */
     section.main [data-testid="block-container"] {
-        padding-top: 0.5rem;
+        padding-top: 0.5rem !important;
     }
     
-    /* Header - compact */
+    /* Reduce all vertical gaps */
+    .main [data-testid="stVerticalBlock"] > div { 
+        padding-top: 0 !important; 
+        padding-bottom: 0 !important; 
+    }
+    
+    /* Compact header */
     .main-header {
         text-align: center;
-        padding: 0.35rem 0;
-        border-bottom: 1px solid #e0e0e0;
-        margin-bottom: 0.75rem;
+        padding: 0.25rem 0;
+        margin-bottom: 0.5rem;
+        background: linear-gradient(135deg, #1a73e8 0%, #1565c0 100%);
+        border-radius: 8px;
+        color: white;
     }
     
     .main-header h1 {
-        color: #1a73e8;
-        margin-bottom: 0.15rem;
-        font-size: 1.4rem;
+        color: white;
+        margin: 0;
+        font-size: 1.1rem;
+        font-weight: 600;
     }
     
     .main-header p {
         margin: 0;
-        font-size: 0.9rem;
-        color: #666;
+        font-size: 0.75rem;
+        color: rgba(255,255,255,0.9);
     }
     
-    /* Tighter spacing for main content */
-    .main .element-container { margin-bottom: 0.5rem; }
-    .main h3 { margin-top: 0.5rem; margin-bottom: 0.35rem; }
-    .main h4 { margin-top: 0.4rem; margin-bottom: 0.25rem; }
-    .main hr { margin: 0.5rem 0; }
+    /* Tight spacing */
+    .main .element-container { margin-bottom: 0.1rem !important; }
+    .main h3 { margin-top: 0.3rem !important; margin-bottom: 0.2rem !important; font-size: 1.1rem !important; }
+    .main h4 { margin-top: 0.2rem !important; margin-bottom: 0.15rem !important; font-size: 0.95rem !important; }
+    .main hr { margin: 0.4rem 0 !important; border-color: #e0e0e0; }
+    .main p { margin-bottom: 0.2rem !important; }
     
     /* Card container */
     .flashcard-container {
         background: white;
         border-radius: 12px;
-        padding: 2rem;
-        box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-        margin-bottom: 1rem;
+        padding: 1.5rem;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        margin-bottom: 0.5rem;
     }
     
     /* Image container */
@@ -94,33 +111,39 @@ st.markdown("""
         margin-bottom: 1rem;
     }
     
-    /* Category badge */
+    /* Category badge - compact */
     .category-badge {
         display: inline-block;
         background: #1a73e8;
         color: white;
-        padding: 0.25rem 0.75rem;
+        padding: 0.15rem 0.5rem;
         border-radius: 20px;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         font-weight: 500;
     }
     
-    /* Sidebar styling - less top padding */
+    /* Shrink gap around embedded html (keyboard zone) */
+    .main [data-testid="stFrame"] { margin-bottom: 0.1rem !important; }
+    
+    /* Smaller clinical images - cap size so they don't dominate */
+    .main [data-testid="stImage"] img { max-width: 280px !important; max-height: 220px !important; object-fit: contain; }
+    
+    /* Sidebar styling */
     [data-testid="stSidebar"] .block-container {
-        padding-top: 0.75rem;
+        padding-top: 0.5rem;
+    }
+    [data-testid="stSidebar"] [data-testid="stVerticalBlock"] {
+        gap: 0.3rem;
     }
     
     /* Navigation buttons */
     .stButton > button {
         width: 100%;
         border-radius: 8px;
-        padding: 0.5rem 1rem;
+        padding: 0.4rem 0.8rem;
         font-weight: 500;
+        font-size: 0.9rem;
     }
-    
-    /* Hide Streamlit branding */
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
     
     /* Card title */
     .card-title {
@@ -148,46 +171,189 @@ st.markdown("""
         color: #1a73e8;
     }
     
-    /* Treatment box - oral boards */
+    /* Treatment box - oral boards - interactive accordion design */
     .treatment-box {
-        background: linear-gradient(135deg, #f0f7ff 0%, #e8f4f8 100%);
-        border: 1px solid #b3d9e6;
-        border-left: 4px solid #1565c0;
-        border-radius: 12px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-        padding: 1.25rem 1.5rem;
-        margin: 0.5rem 0 1rem 0;
-        line-height: 1.65;
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        margin: 1rem 0 1.5rem 0;
+        overflow: hidden;
+        border: none;
     }
     .treatment-box .treatment-title {
         font-size: 1rem;
-        font-weight: 600;
-        color: #1565c0;
-        margin-bottom: 1rem;
+        font-weight: 700;
+        color: white;
+        background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
+        padding: 0.6rem 1rem;
+        margin: 0;
         display: flex;
         align-items: center;
         gap: 0.5rem;
     }
-    .treatment-box p {
-        margin-bottom: 0.75rem;
-        color: #333;
+    .treatment-box .treatment-content {
+        padding: 0;
     }
-    .treatment-box p:last-child { margin-bottom: 0; }
+    .treatment-box p {
+        margin: 0 0 0.4rem 0 !important;
+        color: #333;
+        font-size: 0.9rem;
+        line-height: 1.55;
+    }
     .treatment-box ul, .treatment-box ol {
-        margin: 0.5rem 0 1rem 1.25rem;
-        padding-left: 1.5rem;
+        margin: 0.2rem 0 0.5rem 0;
+        padding-left: 1.1rem;
     }
     .treatment-box li {
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.3rem;
+        color: #333;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+    .treatment-box li::marker {
+        color: #1565c0;
     }
     .treatment-box strong {
         color: #0d47a1;
+        font-weight: 600;
     }
-    .treatment-box h1, .treatment-box h2, .treatment-box h3, .treatment-box h4 {
-        color: #1565c0;
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
+    /* Color-coded collapsible sections */
+    .treatment-box details {
+        border-bottom: 1px solid #e8e8e8;
+    }
+    .treatment-box details:last-of-type {
+        border-bottom: none;
+    }
+    .treatment-box summary {
+        padding: 0.7rem 1rem;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 0.95rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: background 0.2s;
+        list-style: none;
+    }
+    .treatment-box summary::-webkit-details-marker { display: none; }
+    .treatment-box summary::before {
+        content: "▶";
+        font-size: 0.7rem;
+        transition: transform 0.2s;
+    }
+    .treatment-box details[open] summary::before {
+        transform: rotate(90deg);
+    }
+    .treatment-box summary:hover {
+        filter: brightness(0.97);
+    }
+    .treatment-box details .section-content {
+        padding: 0.5rem 1rem 0.8rem 1.5rem;
+        background: #fafafa;
+    }
+    /* Section 1: Data Acquisition - Blue */
+    .treatment-box .section-data summary {
+        background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+        color: #0d47a1;
+    }
+    /* Section 2: Diagnosis - Green */
+    .treatment-box .section-diagnosis summary {
+        background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+        color: #2e7d32;
+    }
+    .treatment-box .section-diagnosis strong { color: #2e7d32; }
+    .treatment-box .section-diagnosis li::marker { color: #2e7d32; }
+    /* Section 3: Management - Purple */
+    .treatment-box .section-management summary {
+        background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+        color: #6a1b9a;
+    }
+    .treatment-box .section-management strong { color: #6a1b9a; }
+    .treatment-box .section-management li::marker { color: #6a1b9a; }
+    /* Section 4: Follow-up Questions - Orange */
+    .treatment-box .section-questions summary {
+        background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+        color: #e65100;
+    }
+    .treatment-box .section-questions strong { color: #e65100; }
+    /* Sub-headers within sections */
+    .treatment-box h3, .treatment-box h4 {
+        color: #555;
+        margin: 0.6rem 0 0.3rem 0;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    /* Legacy h1/h2 fallback */
+    .treatment-box h1, .treatment-box h2 {
+        background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+        color: #0d47a1;
+        margin: 0;
+        padding: 0.6rem 1rem;
+        font-size: 0.95rem;
+        font-weight: 700;
+        border-top: 1px solid #e0e0e0;
+    }
+    .treatment-box h1:first-child, .treatment-box h2:first-child {
+        border-top: none;
+    }
+    
+    /* Floating next card button - orange for contrast */
+    .floating-next-btn {
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        z-index: 9999;
+        background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 12px 24px;
         font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        box-shadow: 0 4px 16px rgba(255, 107, 53, 0.4);
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+    }
+    .floating-next-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(255, 107, 53, 0.5);
+        background: linear-gradient(135deg, #ff7f50 0%, #ffa500 100%);
+        color: white;
+    }
+    .floating-next-btn:active {
+        transform: translateY(0);
+    }
+    /* Floating Prev button - same style, left side */
+    .floating-prev-btn {
+        position: fixed;
+        bottom: 24px;
+        right: 140px;
+        z-index: 9999;
+        background: linear-gradient(135deg, #5c6bc0 0%, #3949ab 100%);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 12px 24px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        box-shadow: 0 4px 16px rgba(57, 73, 171, 0.4);
+        transition: all 0.2s ease;
+        text-decoration: none;
+    }
+    .floating-prev-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(57, 73, 171, 0.5);
+        color: white;
+    }
+    .floating-prev-btn:active {
+        transform: translateY(0);
     }
 </style>
 """, unsafe_allow_html=True)
@@ -308,20 +474,93 @@ End with 1–2 classic examiner follow-up questions (e.g., "How would you discus
 
 
 def render_treatment_html(text):
-    """Convert treatment markdown to styled HTML for the treatment box."""
+    """Convert treatment markdown to styled HTML with collapsible color-coded sections."""
+    import re
     try:
         import markdown
-        body = markdown.markdown(text, extensions=["nl2br"])
-        return f'<div class="treatment-box"><div class="treatment-title">📋 Treatment & next steps (oral boards)</div>{body}</div>'
+        
+        # Split text into sections based on numbered headers
+        sections = []
+        current_section = {"title": "", "content": "", "class": ""}
+        
+        lines = text.strip().split('\n')
+        i = 0
+        while i < len(lines):
+            line = lines[i]
+            # Check for section headers like "1. Data Acquisition" or "**1. Data Acquisition**"
+            header_match = re.match(r'^[*#]*\s*(\d+)\.\s*([^*#\n]+)', line.strip().replace('**', ''))
+            if header_match:
+                # Save previous section
+                if current_section["title"]:
+                    sections.append(current_section)
+                
+                num = header_match.group(1)
+                title = header_match.group(2).strip()
+                
+                # Assign class based on section number
+                if num == "1":
+                    css_class = "section-data"
+                    icon = "📊"
+                elif num == "2":
+                    css_class = "section-diagnosis"
+                    icon = "🔍"
+                elif num == "3":
+                    css_class = "section-management"
+                    icon = "💊"
+                else:
+                    css_class = "section-questions"
+                    icon = "❓"
+                
+                current_section = {"title": f"{icon} {num}. {title}", "content": "", "class": css_class}
+            else:
+                current_section["content"] += line + "\n"
+            i += 1
+        
+        # Don't forget the last section
+        if current_section["title"]:
+            sections.append(current_section)
+        
+        # Check for follow-up questions at the end (often not numbered)
+        if sections and ("follow-up" in sections[-1]["content"].lower() or "examiner" in sections[-1]["content"].lower()):
+            # Extract follow-up questions from last section
+            last_content = sections[-1]["content"]
+            followup_match = re.search(r'((?:examiner|follow.?up)[^\n]*(?:\n.+)*)', last_content, re.IGNORECASE)
+            if followup_match:
+                followup_text = followup_match.group(1)
+                sections[-1]["content"] = last_content[:followup_match.start()]
+                sections.append({"title": "❓ Examiner Follow-up Questions", "content": followup_text, "class": "section-questions"})
+        
+        # Build HTML with collapsible sections
+        if sections:
+            html_parts = []
+            for idx, sec in enumerate(sections):
+                content_html = markdown.markdown(sec["content"], extensions=["nl2br", "tables"])
+                # First section open by default
+                open_attr = "open" if idx == 0 else ""
+                html_parts.append(f'''
+                <details class="{sec["class"]}" {open_attr}>
+                    <summary>{sec["title"]}</summary>
+                    <div class="section-content">{content_html}</div>
+                </details>
+                ''')
+            body = "".join(html_parts)
+        else:
+            # Fallback if no sections detected
+            body = markdown.markdown(text, extensions=["nl2br", "tables"])
+        
+        return f'<div class="treatment-box"><div class="treatment-title">📋 Oral Boards Study Guide</div><div class="treatment-content">{body}</div></div>'
     except Exception:
         # Fallback: escape and wrap in <p> with line breaks
-        import html
-        escaped = html.escape(text).replace("\n", "<br>")
-        return f'<div class="treatment-box"><div class="treatment-title">📋 Treatment & next steps (oral boards)</div><p>{escaped}</p></div>'
+        import html as html_module
+        escaped = html_module.escape(text).replace("\n", "<br>")
+        return f'<div class="treatment-box"><div class="treatment-title">📋 Oral Boards Study Guide</div><div class="treatment-content"><p>{escaped}</p></div></div>'
 
+
+# Max width in pixels for clinical images (smaller so more fit on screen)
+IMAGE_MAX_WIDTH = 280
 
 def display_images(images, show_captions=False):
-    """Display images in a responsive grid."""
+    """Display images in a responsive grid, capped size so they're not huge."""
     if not images:
         st.warning("No images available for this card.")
         return
@@ -351,24 +590,24 @@ def display_images(images, show_captions=False):
     if num_images == 1:
         img = unique_images[0]
         caption = img['alt'] if (show_captions and img['alt']) else None
-        st.image(img['url'], caption=caption, use_container_width=True)
+        st.image(img['url'], caption=caption, width=IMAGE_MAX_WIDTH)
     elif num_images == 2:
         col1, col2 = st.columns(2)
         with col1:
             img = unique_images[0]
             caption = img['alt'] if (show_captions and img['alt']) else None
-            st.image(img['url'], caption=caption, use_container_width=True)
+            st.image(img['url'], caption=caption, width=IMAGE_MAX_WIDTH)
         with col2:
             img = unique_images[1]
             caption = img['alt'] if (show_captions and img['alt']) else None
-            st.image(img['url'], caption=caption, use_container_width=True)
+            st.image(img['url'], caption=caption, width=IMAGE_MAX_WIDTH)
     else:
         # Multiple images in grid (max 3 columns)
         cols = st.columns(min(3, num_images))
         for i, img in enumerate(unique_images):
             with cols[i % len(cols)]:
                 caption = img['alt'] if (show_captions and img['alt']) else None
-                st.image(img['url'], caption=caption, use_container_width=True)
+                st.image(img['url'], caption=caption, width=IMAGE_MAX_WIDTH)
 
 
 def main():
@@ -436,6 +675,10 @@ def main():
     category_filtered = filter_flashcards(flashcards, st.session_state.selected_category)
     filtered_cards = filter_by_search(category_filtered, search_term) if search_term else category_filtered
     
+    # Clamp current_index when filter shrinks (e.g. search) so selectbox never gets out-of-range index
+    if filtered_cards and st.session_state.current_index >= len(filtered_cards):
+        st.session_state.current_index = 0
+    
     # Start with a random card on first load (and when changing category)
     if filtered_cards and not st.session_state.random_start_done:
         st.session_state.random_start_done = True
@@ -451,6 +694,9 @@ def main():
             st.session_state.show_answer = True
         elif action == "next":
             st.session_state.current_index = (st.session_state.current_index + 1) % len(filtered_cards)
+            st.session_state.show_answer = False
+        elif action == "prev":
+            st.session_state.current_index = (st.session_state.current_index - 1) % len(filtered_cards)
             st.session_state.show_answer = False
         # Remove param so we don't loop
         q = dict(st.query_params)
@@ -488,7 +734,6 @@ def main():
                 st.session_state.show_answer = False
                 st.rerun()
             
-            st.caption("⌨️ Enter/Space = Reveal · → = Next")
             st.markdown("---")
             
             # Card selector
@@ -518,50 +763,55 @@ def main():
     
     current_card = filtered_cards[st.session_state.current_index]
     
-    # Keyboard shortcuts: focusable iframe captures Enter/Space (reveal) and ArrowRight (next)
-    # Sandbox may block location change; try parent + open(..., "_top") and ensure zone gets focus on click
+    # Keyboard shortcuts: focusable iframe zone — click it once, then Space/Enter = reveal, ←/→ = prev/next
     st.components.v1.html("""
     <div id="kb-zone" tabindex="0" style="
-      outline: none; margin: 0; padding: 8px 10px; font-size: 13px; color: #333;
-      background: #e3f2fd; border-radius: 8px; border: 1px solid #90caf9;
+      outline: none; margin: 0; padding: 6px 10px; font-size: 12px; color: #333;
+      background: #e3f2fd; border-radius: 6px; border: 1px solid #90caf9;
       cursor: pointer; text-align: center; font-weight: 500;
-    " title="Click here first, then use Enter/Space to reveal, Arrow Right for next card">
-      ⌨️ Click here first, then: <b>Enter</b> / <b>Space</b> = reveal · <b>→</b> = next card
+    " title="Click here first, then use Space/Enter to reveal, arrows for prev/next">
+      ⌨️ Click here first, then: <b>Space</b>/<b>Enter</b> = reveal · <b>←</b> = prev · <b>→</b> = next
     </div>
     <form id="kb-form" method="GET" target="_top" style="display:none;"></form>
     <script>
     (function() {
       var zone = document.getElementById("kb-zone");
       var form = document.getElementById("kb-form");
-      function go(path) {
+      function buildUrl(action) {
         var top = window.top;
         var base = (top.location.origin || "") + (top.location.pathname || "/");
-        var url = base + path;
+        var path = base.split("?")[0];
+        return path + "?action=" + action;
+      }
+      function submitAction(action) {
         try {
-          form.action = url;
+          form.action = buildUrl(action);
           form.submit();
         } catch (e) {
-          try { top.location.href = url; } catch (e2) {
-            try { window.open(url, "_top"); } catch (e3) {}
-          }
+          try { window.top.location.href = buildUrl(action); } catch (e2) {}
         }
       }
       zone.addEventListener("click", function() { zone.focus(); });
       zone.addEventListener("keydown", function(e) {
         var k = e.key;
-        if (k === "Enter" || k === " ") {
+        var isSpace = (k === " " || k === "Spacebar");
+        if (k === "Enter" || isSpace) {
           e.preventDefault();
           e.stopPropagation();
-          go("?action=reveal");
+          submitAction("reveal");
         } else if (k === "ArrowRight") {
           e.preventDefault();
           e.stopPropagation();
-          go("?action=next");
+          submitAction("next");
+        } else if (k === "ArrowLeft") {
+          e.preventDefault();
+          e.stopPropagation();
+          submitAction("prev");
         }
       });
     })();
     </script>
-    """, height=48)
+    """, height=36)
     
     # Header (and search caption when active)
     if search_term:
@@ -599,12 +849,6 @@ def main():
             if st.button("👁️ Reveal Answer", type="primary", use_container_width=True):
                 st.session_state.show_answer = True
                 st.rerun()
-        
-        st.markdown("""
-        <div style="text-align: center; color: #666; margin-top: 0.4rem; font-size: 0.85rem;">
-            <em>Study the images, then click or press <strong>Enter</strong> / <strong>Space</strong> to reveal · <strong>→</strong> next card</em>
-        </div>
-        """, unsafe_allow_html=True)
     else:
         # Show answer
         st.markdown("#### ✅ Answer")
@@ -646,15 +890,11 @@ def main():
         else:
             st.caption("Oral boards treatment not loaded — if you're the app owner, add OPENAI_API_KEY in Streamlit Cloud → Settings → Secrets once; then it works for everyone.")
         
-        # Next card button
-        st.markdown("---")
-        col1, col2, col3 = st.columns([1, 2, 1])
-        with col2:
-            if st.button("➡️ Next Card", type="primary", use_container_width=True):
-                st.session_state.current_index = (st.session_state.current_index + 1) % len(filtered_cards)
-                st.session_state.show_answer = False
-                st.rerun()
-        st.caption("⌨️ Press → for next card")
+    # Floating Prev / Next buttons (always visible, no scrolling needed)
+    st.markdown("""
+    <a href="?action=prev" class="floating-prev-btn" title="Previous Card">⬅️ Prev</a>
+    <a href="?action=next" class="floating-next-btn" title="Next Card">Next ➡️</a>
+    """, unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
