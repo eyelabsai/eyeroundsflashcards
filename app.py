@@ -644,7 +644,7 @@ def main():
                 st.session_state.treatment_cache[card_id] = text
                 st.markdown(render_treatment_html(text), unsafe_allow_html=True)
         else:
-            st.caption("Add `OPENAI_API_KEY` to `.env` to use treatment lookup.")
+            st.caption("Oral boards treatment not loaded — if you're the app owner, add OPENAI_API_KEY in Streamlit Cloud → Settings → Secrets once; then it works for everyone.")
         
         # Next card button
         st.markdown("---")
