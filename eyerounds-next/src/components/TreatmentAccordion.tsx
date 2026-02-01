@@ -139,10 +139,15 @@ export default function TreatmentAccordion({ treatment, loading }: TreatmentAcco
 }
 
 function formatContent(content: string): string {
+  // Bold introductory phrases in bullet points (e.g. "Visual acuity testing: Expect..." -> "**Visual acuity testing:** Expect...")
+  const withBoldLabels = content.replace(
+    /^[-•]\s+([A-Z][^:\n]{1,55}):\s+(.+)$/gm,
+    (_, label, rest) => `- **${label.trim()}:** ${rest}`
+  );
   // Convert markdown-style formatting to HTML
-  let html = content
+  let html = withBoldLabels
     // Bold
-    .replace(/\*\*([^*]+)\*\*/g, '<strong class="text-gray-800">$1</strong>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong class="font-semibold text-gray-800">$1</strong>')
     // Bullet points
     .replace(/^[-•]\s+(.+)$/gm, '<li>$1</li>')
     // Wrap consecutive li elements in ul
@@ -152,7 +157,7 @@ function formatContent(content: string): string {
     // Clean up extra br after ul
     .replace(/<\/ul><br>/g, '</ul>')
     // Sub-headers (like "History:", "Exam Findings:")
-    .replace(/^([A-Z][^:]+):\s*<br>/gm, '<h4 class="font-semibold text-gray-700 mt-3 mb-1 uppercase text-xs tracking-wide">$1</h4>');
+    .replace(/^([A-Z][^:]+):\s*<br>/gm, '<h4 class="font-semibold text-gray-700 mt-2 mb-0.5 uppercase text-xs tracking-wide">$1</h4>');
 
   return html;
 }

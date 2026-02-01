@@ -32,12 +32,12 @@ details[open] summary .accordion-arrow {
   transition: transform 0.2s ease;
 }
 
-/* Oral Boards Study Guide: use full width, tighter spacing */
+/* Oral Boards Study Guide: full width, tight spacing under History/Exam Findings */
 .prose ul,
 .prose ol {
   padding-left: 1.25rem;
-  margin-top: 0.35rem;
-  margin-bottom: 0.35rem;
+  margin-top: 0.15rem;
+  margin-bottom: 0.25rem;
 }
 .prose li {
   margin-bottom: 0.2rem;
@@ -46,8 +46,8 @@ details[open] summary .accordion-arrow {
   margin-bottom: 0.4rem;
 }
 .prose h4 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.25rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.1rem;
 }
 
 /* Image grid */
