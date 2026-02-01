@@ -154,7 +154,7 @@ export default function FlashcardViewer({ flashcards, initialIndex = 0 }: Flashc
         </>
       ) : (
         {/* Side-by-side: images + answer on left, Oral Boards Study Guide on right */}
-        <div className="grid gap-6 grid-cols-1 md:grid-cols-[1fr_1.2fr]">
+        <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
           {/* Left: Images, Answer, Contributor */}
           <div className="space-y-4 min-w-0">
             <div className="bg-gray-50 rounded-xl p-4">
