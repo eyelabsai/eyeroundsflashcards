@@ -107,7 +107,7 @@ export default function FlashcardViewer({ flashcards, initialIndex = 0 }: Flashc
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-2">
+    <div className="w-full max-w-[1400px] mx-auto px-3 md:px-4">
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-4 mb-4 text-center">
         <h1 className="text-xl font-bold flex items-center justify-center gap-2">
@@ -154,9 +154,9 @@ export default function FlashcardViewer({ flashcards, initialIndex = 0 }: Flashc
         </>
       ) : (
         <>
-          <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
+          <div className="grid gap-4 md:gap-6 grid-cols-1 md:grid-cols-2">
           {/* Left: Images, Answer, Contributor */}
-          <div className="space-y-4 min-w-0">
+          <div className="space-y-3 min-w-0">
             <div className="bg-gray-50 rounded-xl p-4">
               <h3 className="text-sm font-medium text-gray-600 mb-3 flex items-center gap-2">
                 🖼️ Clinical Images
@@ -185,8 +185,8 @@ export default function FlashcardViewer({ flashcards, initialIndex = 0 }: Flashc
               </div>
             )}
           </div>
-          {/* Right: Oral Boards Study Guide - wider, bigger font, all expanded */}
-          <div className="min-w-0 flex flex-col min-h-0">
+          {/* Right: Oral Boards Study Guide - use full column width */}
+          <div className="min-w-0 flex flex-col min-h-0 w-full">
             <TreatmentAccordion treatment={treatment} loading={loadingTreatment} />
           </div>
         </div>

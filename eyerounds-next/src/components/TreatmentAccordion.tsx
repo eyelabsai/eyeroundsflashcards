@@ -63,17 +63,19 @@ export default function TreatmentAccordion({ treatment, loading }: TreatmentAcco
       result.push(currentSection);
     }
 
-    // Check for follow-up questions
+    // Split out Examiner Follow-up Questions only when it's a real section heading (not "follow-up" in middle of Management text)
     if (result.length > 0) {
       const lastSection = result[result.length - 1];
-      const followUpRegex = /((?:examiner|follow.?up)[^\n]*(?:\n.+)*)/i;
-      const followUpMatch = lastSection.content.match(followUpRegex);
-      
-      if (followUpMatch) {
-        lastSection.content = lastSection.content.slice(0, followUpMatch.index);
+      // Match a line that is clearly the "Examiner Follow-up Questions" section header (start of line, optional **)
+      const examinerHeaderRegex = /\n\s*(?:\*\*)?\s*Examiner\s+Follow-up\s+Questions?\s*(?:\*\*)?\s*\n/i;
+      const examinerMatch = lastSection.content.match(examinerHeaderRegex);
+      if (examinerMatch && examinerMatch.index !== undefined) {
+        const idx = examinerMatch.index;
+        const afterHeader = lastSection.content.slice(idx + examinerMatch[0].length).trim();
+        lastSection.content = lastSection.content.slice(0, idx).trim();
         result.push({
           title: '❓ Examiner Follow-up Questions',
-          content: followUpMatch[1],
+          content: afterHeader,
           icon: '❓',
           colorClass: 'bg-orange-50 text-orange-700 border-orange-200',
         });
@@ -123,9 +125,9 @@ export default function TreatmentAccordion({ treatment, loading }: TreatmentAcco
               <span className="accordion-arrow text-xs">▶</span>
               {section.title}
             </summary>
-            <div className="px-4 py-3 bg-gray-50 text-base leading-relaxed">
+            <div className="px-4 py-3 bg-gray-50 text-base leading-relaxed w-full min-w-0">
               <div
-                className="prose prose-base max-w-none"
+                className="prose prose-base max-w-none w-full"
                 dangerouslySetInnerHTML={{ __html: formatContent(section.content) }}
               />
             </div>
