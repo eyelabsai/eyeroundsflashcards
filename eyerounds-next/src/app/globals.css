@@ -38,20 +38,29 @@ details[open] summary .accordion-arrow {
 }
 .study-guide-content.prose ul,
 .study-guide-content.prose ol {
-  padding-left: 1.1rem;
-  margin-top: 0.1rem;
-  margin-bottom: 0.15rem;
+  padding-left: 1rem;
+  margin-top: 0.05rem;
+  margin-bottom: 0.1rem;
+  column-gap: 1.25rem;
 }
 .study-guide-content.prose li {
-  margin-bottom: 0.15rem;
-  line-height: 1.5;
+  margin-bottom: 0.12rem;
+  line-height: 1.45;
+  break-inside: avoid;
 }
 .study-guide-content.prose p {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 .study-guide-content.prose h4 {
-  margin-top: 0.25rem;
+  margin-top: 0.2rem;
   margin-bottom: 0.05rem;
+}
+
+@media (min-width: 900px) {
+  .study-guide-content.prose ul,
+  .study-guide-content.prose ol {
+    column-count: 2;
+  }
 }
 
 /* Image grid */

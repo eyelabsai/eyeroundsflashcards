@@ -120,12 +120,12 @@ export default function TreatmentAccordion({ treatment, loading }: TreatmentAcco
         {sections.map((section, index) => (
           <details key={index} open={true} className="group">
             <summary
-              className={`px-3 py-2 font-semibold cursor-pointer flex items-center gap-2 hover:brightness-95 transition-all text-base ${section.colorClass}`}
+              className={`px-3 py-1.5 font-semibold cursor-pointer flex items-center gap-2 hover:brightness-95 transition-all text-[15px] ${section.colorClass}`}
             >
               <span className="accordion-arrow text-xs">▶</span>
               {section.title}
             </summary>
-            <div className="px-3 py-2 bg-gray-50 text-base leading-relaxed w-full min-w-0">
+            <div className="px-3 py-1.5 bg-gray-50 text-[15px] leading-6 w-full min-w-0">
               <div
                 className="prose prose-base max-w-none w-full study-guide-content"
                 dangerouslySetInnerHTML={{ __html: formatContent(section.content) }}
