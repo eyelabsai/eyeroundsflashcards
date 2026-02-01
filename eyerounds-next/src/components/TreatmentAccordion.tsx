@@ -111,7 +111,7 @@ export default function TreatmentAccordion({ treatment, loading }: TreatmentAcco
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden w-full min-w-0 flex-1 flex flex-col">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 py-3 font-semibold flex items-center gap-2 text-base">
+      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white px-3 py-2 font-semibold flex items-center gap-2 text-base">
         📋 Oral Boards Study Guide
       </div>
 
@@ -120,14 +120,14 @@ export default function TreatmentAccordion({ treatment, loading }: TreatmentAcco
         {sections.map((section, index) => (
           <details key={index} open={true} className="group">
             <summary
-              className={`px-4 py-3 font-semibold cursor-pointer flex items-center gap-2 hover:brightness-95 transition-all text-base ${section.colorClass}`}
+              className={`px-3 py-2 font-semibold cursor-pointer flex items-center gap-2 hover:brightness-95 transition-all text-base ${section.colorClass}`}
             >
               <span className="accordion-arrow text-xs">▶</span>
               {section.title}
             </summary>
-            <div className="px-4 py-3 bg-gray-50 text-base leading-relaxed w-full min-w-0">
+            <div className="px-3 py-2 bg-gray-50 text-base leading-relaxed w-full min-w-0">
               <div
-                className="prose prose-base max-w-none w-full"
+                className="prose prose-base max-w-none w-full study-guide-content"
                 dangerouslySetInnerHTML={{ __html: formatContent(section.content) }}
               />
             </div>
@@ -139,25 +139,30 @@ export default function TreatmentAccordion({ treatment, loading }: TreatmentAcco
 }
 
 function formatContent(content: string): string {
-  // Bold introductory phrases in bullet points (e.g. "Visual acuity testing: Expect..." -> "**Visual acuity testing:** Expect...")
-  const withBoldLabels = content.replace(
+  // Bold "Label: description" in bullet points (e.g. "Visual acuity testing: Expect..." -> "**Visual acuity testing:** Expect...")
+  let withBold = content.replace(
     /^[-•]\s+([A-Z][^:\n]{1,55}):\s+(.+)$/gm,
     (_, label, rest) => `- **${label.trim()}:** ${rest}`
   );
+  // Bold first phrase in other bullet lines (e.g. "Measure visual acuity and refraction." or "Onset and duration of myopia; inquire...")
+  withBold = withBold.replace(
+    /^(-\s+)(?!\*\*)([A-Z][^.\n]{1,70}[.;])\s*(.*)$/gm,
+    (_, bullet, phrase, rest) => `${bullet}**${phrase.trim()}**${rest ? ` ${rest}` : ''}`
+  );
   // Convert markdown-style formatting to HTML
-  let html = withBoldLabels
+  let html = withBold
     // Bold
     .replace(/\*\*([^*]+)\*\*/g, '<strong class="font-semibold text-gray-800">$1</strong>')
     // Bullet points
     .replace(/^[-•]\s+(.+)$/gm, '<li>$1</li>')
     // Wrap consecutive li elements in ul
-    .replace(/((?:<li>.*<\/li>\n?)+)/g, '<ul class="list-disc list-inside space-y-1 my-2">$1</ul>')
+    .replace(/((?:<li>.*<\/li>\n?)+)/g, '<ul class="list-disc list-inside space-y-0.5 my-1">$1</ul>')
     // Line breaks
     .replace(/\n/g, '<br>')
     // Clean up extra br after ul
     .replace(/<\/ul><br>/g, '</ul>')
     // Sub-headers (like "History:", "Exam Findings:")
-    .replace(/^([A-Z][^:]+):\s*<br>/gm, '<h4 class="font-semibold text-gray-700 mt-2 mb-0.5 uppercase text-xs tracking-wide">$1</h4>');
+    .replace(/^([A-Z][^:]+):\s*<br>/gm, '<h4 class="font-semibold text-gray-700 mt-1.5 mb-0.5 uppercase text-xs tracking-wide">$1</h4>');
 
   return html;
 }

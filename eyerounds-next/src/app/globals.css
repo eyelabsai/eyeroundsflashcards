@@ -32,22 +32,26 @@ details[open] summary .accordion-arrow {
   transition: transform 0.2s ease;
 }
 
-/* Oral Boards Study Guide: full width, tight spacing under History/Exam Findings */
-.prose ul,
-.prose ol {
-  padding-left: 1.25rem;
-  margin-top: 0.15rem;
-  margin-bottom: 0.25rem;
+/* Oral Boards Study Guide: use full width, minimal wasted space */
+.study-guide-content {
+  max-width: 100%;
 }
-.prose li {
-  margin-bottom: 0.2rem;
+.study-guide-content.prose ul,
+.study-guide-content.prose ol {
+  padding-left: 1.1rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.15rem;
 }
-.prose p {
-  margin-bottom: 0.4rem;
+.study-guide-content.prose li {
+  margin-bottom: 0.15rem;
+  line-height: 1.5;
 }
-.prose h4 {
-  margin-top: 0.35rem;
-  margin-bottom: 0.1rem;
+.study-guide-content.prose p {
+  margin-bottom: 0.3rem;
+}
+.study-guide-content.prose h4 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.05rem;
 }
 
 /* Image grid */
