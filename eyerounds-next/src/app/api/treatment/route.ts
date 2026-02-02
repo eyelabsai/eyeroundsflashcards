@@ -26,6 +26,10 @@ ${context}
 
 Structure your response as:
 
+**0. High-Yield Quick Answers**
+- 5–8 bullets with short, oral-board-ready one-liners (diagnosis, key finding, top test, first-line treatment, critical complication, and one counseling point as applicable).
+- Keep to rapid-fire responses; no long paragraphs.
+
 **1. Data Acquisition**
 - What relevant history to elicit (onset, progression, trauma, surgery, systemic risk factors).
 - Important exam findings and ancillary testing to order (e.g., A/B scan, imaging, labs).
